@@ -1,0 +1,23 @@
+Used for capstone project of coursera course but also utilised to demonstrate competencies in:
+- Python
+-- GUI eg PYqt
+-- Data visualisation application software
+- SQL
+
+Goodreads scraper
+
+Functionality:
+
+N books read
+Overall page scraper
+Books read over time
+Genres read 
+Score by genre
+Genre sorter
+Quote scraper (would be a separate entity) 
+
+key: Yr3H90AUwTJMwgIW1ClKMA
+secret: xWYBOB2Dc8Uqm4USMfeqWYttpnqwNhs7MIpMsDm0
+
+
+documentation  https://goodreads.readthedocs.io/en/latest/

@@ -1,0 +1,72 @@
+
+
+what may be a good idea is to utilise a users 'read' pages to scrape a list of the books which have been found
+this is possible through a part of the coursera course you completed at an earlier date
+
+you will utliised the goodreads api package to search for the book and get it's url
+once within the url, you can set a standard to gather
+- page count
+- quotes
+- average rating
+- average year of book read
+
+you will also be able to
+- get read dates
+- rating averages
+- author count
+
+all of this should get exported to sql
+
+
+0908 - 
+
+managed to quite simply utilise beautiful soup to get the book name and author. to be done for
+- read date
+-review
+-page count
+-link
+-average rating
+-your rating
+-would be realtively simple to add it to sql i think
+- one issue that stands is that it loads only 30/96 due ot the autoloding nature of the page
+- next step add to sql
+
+
+1308 
+
+- spend a long time on the page incrementer:
+first trying to get the autocomplete pag e to work
+will do this at a later date - have just got a page which shows 100 of the records as doing it via get delays time
+now have all the data onto sql, however an issue arises in that when adding the date read/added field to it, it would not add all 94 entires
+have removed that, will come back to it later
+-attempted joining author id with title but too tired so will do that later
+- generally tidied up the workspace
+
+- for next time:
+-- change the database title.title to title.name as its causing issues (done)
+-- rewatch the coursera video on join to understand how to link the author and the title (done)
+-- attempt to figure out how to add date added and date read while keeping all the entries (done)
+-- datetime the two dates (ishy)
+
+
+1408
+
+-spent a lot of time figuring out sql and have a better understanding of the framework
+--have generated join statements which work together
+--the whole table was not generating as date_added needed to be in it's own independent table as duplicate date adds were only
+--causing one of that dates books to be uploaded. have made a new table for date added to avoid this 
+
+-the data can not be parsed with datetime module at this current time but will be done when pulling back into another python file
+-- but looking at below, it could be possible
+
+--just managed to amend isbn number to produce null if no number is provided by a rough if statement if there is no digit below 6. a better way
+of doing it for sure but this works
+
+- for next time:
+-- see if you can do a statement which parses date into datetime format
+-- amend the date_read data so there actually is data
+-- create a table for date_read a la date_added
+-- create another .py 
+--- will have quote pulling element which writes to a simple .txt for the moment
+---- can figure out how this pushes to anki in the future
+--- a data analyser, using matplotlib to visualise this 

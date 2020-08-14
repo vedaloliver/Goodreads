@@ -1,0 +1,10 @@
+- statement below joins the tables of author and title:
+SELECT title.name,author.name, title.link,title.length,title.isbn,title.date_read,title.avg_rating 
+from title join Author
+ON title.author_id = author.id
+
+links title and date added
+
+select title.name, author.name, date_added.name 
+from title,author,date_added on title.date_added_id = date_added.id
+ and title.author_id = author.id
