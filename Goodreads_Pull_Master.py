@@ -71,7 +71,9 @@ prog_count = 0
 def quote_puller(data2):
     global count
     global prog_count
+    # gathers data from sql
     data2 = cur.execute('''select * FROM quote_link ''')
+    # make a list of the Links
     for i in data2:
         links.append(goodreads_base+i[1])
 
@@ -84,39 +86,25 @@ def quote_puller(data2):
     for i in range(len(links)):
         lastnumber = range(len(links))[-1]
         progress = (str(round(((i+1)/lastnumber)*100, 1)))
-        #print (lastnumber)
         site = requests.get(links[i])
         soup = BeautifulSoup(site.text, 'lxml')
         count = 0
+        # simple progress percentage return
         prog_count +=1
-        if prog_count == 2:
+        # nifty boolean which makes it provide percentage completion every 3 ticks and not one.
+        if prog_count == 3:
             print ("Currently at %", progress, "completion.")
             prog_count=0
+        # gathers the needed quotes
         for quotez in soup.find_all('div', class_='quote'):
             quote = quotez.find('div', class_='quoteText').text
             count += 1
             if count == 5:
                 break
-    
+            # next two lines 1. formats for readability and writes to file   
             quote_format = str(count)+ ': ' +quote.replace('\n', '').replace('”    ―','”    \n \n')+'\n\n'
-            quote_files.write(str(quote_format))
+            quote_files.write(str(quote_format))    
 
-            #print ("quote:",count ,  quote.replace('\n', ''), '\n')
-    
-
-    # for i in resp:
-    #     soups = BeautifulSoup(i.text, 'lxml')
-    #     for quotez in soups.find_all('div', class_='quote'):
-    #         quote = quotez.find('div', class_='quoteText').text
-    #         count += 1
-    #         if count == 5:
-    #             break
-
-    #         quote_format = str(count)+ ': ' +quote.replace('\n', '').replace('”    ―','”    \n \n')+'\n\n'
-    #         quote_files.write(str(quote_format))
-
-    #         print ("quote:",count ,  quote.replace('\n', ''), '\n')
-        
 #page_stats(data)
 quote_puller(data)
 

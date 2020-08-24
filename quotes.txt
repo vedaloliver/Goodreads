@@ -3,7 +3,7 @@
       Ashlee Vance,  Elon Musk: How the Billionaire CEO of SpaceX and Tesla is Shaping our Future
 
 2:       “The best minds of my generation are thinking about how to make people click ads,”    
- 
+ x
       Ashlee Vance,  Elon Musk: Inventing the Future
 
 3:       “If the rules are such that you can’t make progress, then you have to fight the rules.”    
@@ -14,271 +14,843 @@
  
       Ashlee Vance,  Elon Musk: Inventing the Future
 
-1:       “They carried the sky. The whole atmosphere, they carried it, the humidity, the monsoons, the stink of fungus and decay, all of it, they carried gravity.”    
+6:       “They carried the sky. The whole atmosphere, they carried it, the humidity, the monsoons, the stink of fungus and decay, all of it, they carried gravity.”    
  
       Tim O'Brien,  The Things They Carried
 
-2:       “A thing may happen and be a total lie; another thing may not happen and be truer than the truth.”    
+7:       “A thing may happen and be a total lie; another thing may not happen and be truer than the truth.”    
  
       Tim O'Brien,  The Things They Carried
 
-3:       “A true war story is never moral. It does not instruct, nor encourage virtue, nor suggest models of proper human behavior, nor restrain men from doing the things men have always done. If a story seems moral, do not believe it. If at the end of a war story you feel uplifted, or if you feel that some small bit of rectitude has been salvaged from the larger waste, then you have been made the victim of a very old and terrible lie. There is no rectitude whatsoever. There is no virtue. As a first rule of thumb, therefore, you can tell a true war story by its absolute and uncompromising allegiance to obscenity and evil.”    
+8:       “A true war story is never moral. It does not instruct, nor encourage virtue, nor suggest models of proper human behavior, nor restrain men from doing the things men have always done. If a story seems moral, do not believe it. If at the end of a war story you feel uplifted, or if you feel that some small bit of rectitude has been salvaged from the larger waste, then you have been made the victim of a very old and terrible lie. There is no rectitude whatsoever. There is no virtue. As a first rule of thumb, therefore, you can tell a true war story by its absolute and uncompromising allegiance to obscenity and evil.”    
  
       Tim O'Brien,  The Things They Carried
 
-4:       “But the thing about remembering is that you don't forget.”    
+9:       “But the thing about remembering is that you don't forget.”    
  
       Tim O'Brien,  The Things They Carried
 
-1:       “Above all, don't lie to yourself. The man who lies to himself and listens to his own lie comes to a point that he cannot distinguish the truth within him, or around him, and so loses all respect for himself and for others. And having no respect he ceases to love.”    
+10:       “The thing about a story is that you dream it as you tell it, hoping that others might then dream along with you, and in this way memory and imagination and language combine to make spirits in the head. There is the illusion of aliveness.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+11:       “Stories are for joining the past to the future. Stories are for those late hours in the night when you can't remember how you got from where you were to where you are. Stories are for eternity, when memory is erased, when there is nothing to remember except the story.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+12:       “They carried all they could bear, and then some, including a silent awe for the terrible power of the things they carried.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+13:       “I want you to feel what I felt. I want you to know why story-truth is truer sometimes than happening-truth.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+14:       “War is hell, but that's not the half of it, because war is also mystery and terror and adventure and courage and discovery and holiness and pity and despair and longing and love. War is nasty; war is fun. War is thrilling; war is drudgery. War makes you a man; war makes you dead.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+15:       “I survived, but it's not a happy ending.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+16:       “you're never more alive than when you're almost dead.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+17:       “But in a story, which is a kind of dreaming, the dead sometimes smile and sit up and return to the world.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+18:       “But this too is true: stories can save us.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+19:       “It was very sad, he thought. The things men carried inside. The things men did or felt they had to do. ”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+20:       “What sticks to memory, often, are those odd little fragments that have no beginning and no end...”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+21:       “And sometimes remembering will lead to a story, which makes it forever. That's what stories are for. Stories are for joining the past to the future. Stories are for those late hours in the night when you can't remember how you got from where you were to where you are. Stories are for eternity, when memory is erased, when there is nothing to remember except the story.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+22:       “He wished he could've explained some of this. How he had been braver than he ever thought possible, but how he had not been so brave as he wanted to be. The distinction was important.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+23:       “It was my view then, and still is, that you don't make war without knowing why. Knowledge of course, is always imperfect, but it seemed to me that when a nation goes to war it must have reasonable confidence in the justice and imperative of its cause. You can't fix your mistakes. Once people are dead, you can't make them undead.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+24:       “In any war story, but especially a true one, it's difficult to separate what happened from what seemed to happen. What seems to happen becomes its own happening and has to be told that way. The angles of vision are skewed. When a booby trap explodes, you close your eyes and duck and float outside yourself. .. The pictures get jumbled, you tend to miss a lot. And then afterward, when you go to tell about it, there is always that surreal seemingness, which makes the story seem untrue, but which in fact represents the hard and exact truth as it seemed.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+25:       “It wasn't a question of deceit. Just the opposite; he wanted to heat up the truth, to make it burn so hot that you would feel exactly what he felt.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+26:       “...his love was too much for him, he felt paralyzed, he wanted to sleep inside her lungs and breathe her blood and be smothered.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+27:       “Together we understood what terror was: you're not human anymore. You're a shadow. You slip out of your own skin, like molting, shedding your own history and your own future, leaving behind everything you ever were or wanted to believed in. You know you're about to die. And it's not a movie and you aren't a hero and all you can do is whimper and wait. ”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+28:       “To generalize about war is like generalizing about peace. Almost everything is true. Almost nothing is true. At its core, perhaps, war is just another name for death, and yet any soldier will tell you, if he tells the truth, that proximity to death brings with it a corresponding proximity to life. After a firefight, there is always the immense pleasure of aliveness. The trees are alive. The grass, the soil—everything. All around you things are purely living, and you among them, and the aliveness makes you tremble. You feel an intense, out-of-the-skin awareness of your living self—your truest self, the human being you want to be and then become by the force of wanting it. In the midst of evil you want to be a good man. You want decency. You want justice and courtesy and human concord, things you never knew you wanted. There is a kind of largeness to it, a kind of godliness. Though it’s odd, you’re never more alive than when you’re almost dead. You recognize what’s valuable. Freshly, as if for the first time, you love what’s best in yourself and in the world, all that might be lost. At the hour of dusk you sit at your foxhole and look out on a wide river turning pinkish red, and at the mountains beyond, and although in the morning you must cross the river and go into the mountains and do terrible things and maybe die, even so, you find yourself studying the fine colors on the river, you feel wonder and awe at the setting of the sun, and you are filled with a hard, aching love for how the world could be and always should be, but now is not.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+29:       “Well, right now I'm not dead. But when I am, it's like...I don't know, I guess it's like being inside a book that nobody's reading. [...] An old one. It's up on a library shelf, so you're safe and everything, but the book hasn't been checked out for a long, long time. All you can do is wait. Just hope somebody'll pick it up and start reading.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+30:       “you can tell a true war story if it embarrasses you. If you don't care for obscenity, you don't care for the truth; if you don't care for the truth, watch how you vote. Send guys to war, they come home talking dirty. ”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+31:       “I was a coward. I went to the war.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+32:       “They carried all the emotional baggage of men who might die. Grief, terror, love, longing--these were intangibles, but the intangibles had their own mass and specific gravity, they had tangible weight. They carried shameful memories. They carried the common secret of cowardice.... Men killed, and died, because they were embarrassed not to.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+33:       “Linda was nine then, as I was, but we were in love...it had all the shadings and complexities of mature adult love and maybe more, because there were not yet words for it, and because it was not yet fixed to comparisons or chronologies or the ways by which adults measure such things...I just loved her. Even then, at nine years old, I wanted to live inside her body. I wanted to melt into her bones -- that kind of love.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+34:       “It’s a hard thing to explain to somebody who hasn’t felt it, but the presence of death and danger has a way of bringing you fully awake. It makes things vivid. When you’re afraid, really afraid, you see things you never saw before, you pay attention to the world. You make close friends. You become part of a tribe and you share the same blood- you give it together, you take it together.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+35:       “You don't know. When I'm out there at night I feel close to my own body, I can feel my blood moving, my skin and fingernails, everything, it's like I'm full of electricity and I'm glowing in the dark - I'm on fire almost - I'm burning away into nothing - but it doesn't matter because I know exactly who I am.”    
+ 
+      Tim O'Brien,  The Things They Carried
+
+36:       “Above all, don't lie to yourself. The man who lies to himself and listens to his own lie comes to a point that he cannot distinguish the truth within him, or around him, and so loses all respect for himself and for others. And having no respect he ceases to love.”    
  
       Fyodor Dostoevsky,  The Brothers Karamazov
 
-2:       “What is hell? I maintain that it is the suffering of being unable to love.”    
+37:       “What is hell? I maintain that it is the suffering of being unable to love.”    
  
       Fyodor Dostoevsky,  The Brothers Karamazov
 
-3:       “I love mankind, he said, "but I find to my amazement that the more I love mankind as a whole, the less I love man in particular.”    
+38:       “I love mankind, he said, "but I find to my amazement that the more I love mankind as a whole, the less I love man in particular.”    
  
       Fyodor Dostoyevsky,  The Brothers Karamazov
 
-4:       “The mystery of human existence lies not in just staying alive, but in finding something to live for.”    
+39:       “The mystery of human existence lies not in just staying alive, but in finding something to live for.”    
  
       Fyodor Dostoyevsky,  The Brothers Karamazov
 
-1:       “Solitude is independence. It had been my wish and with the years I had attained it. It was cold. Oh, cold enough! But it was also still, wonderfully still and vast like the cold stillness of space in which the stars revolve.”    
+40:       “The world says: "You have needs -- satisfy them. You have as much right as the rich and the mighty. Don't hesitate to satisfy your needs; indeed, expand your needs and demand more." This is the worldly doctrine of today. And they believe that this is freedom. The result for the rich is isolation and suicide, for the poor, envy and murder.”    
+ 
+      Fyodor Dostoyevsky,  The Brothers Karamazov
+
+41:       “I can see the sun, but even if I cannot see the sun, I know that it exists. And to know that the sun is there - that is living.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+42:       “The awful thing is that beauty is mysterious as well as terrible. God and the devil are fighting there and the battlefield is the heart of man.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+43:       “I think the devil doesn't exist, but man has created him, he has created him in his own image and likeness.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+44:       “Besides, nowadays, almost all capable people are terribly afraid of being ridiculous, and are miserable because of it.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+45:       “This is my last message to you: in sorrow, seek happiness.”    
+ 
+      Fyodor Dostoyevsky,  The Brothers Karamazov
+
+46:       “The more stupid one is, the closer one is to reality. The more stupid one is, the clearer one is. Stupidity is brief and artless, while intelligence squirms and hides itself. Intelligence is unprincipled, but stupidity is honest and straightforward.”    
+ 
+      Fyodor Dostoyevsky,  The Brothers Karamazov
+
+47:       “Love in action is a harsh and dreadful thing compared to love in dreams.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+48:       “I believe like a child that suffering will be healed and made up for, that all the humiliating absurdity of human contradictions will vanish like a pitiful mirage, like the despicable fabrication of the impotent and infinitely small Euclidean mind of man, that in the world's finale, at the moment of eternal harmony, something so precious will come to pass that it will suffice for all hearts, for the comforting of all resentments, for the atonement of all the crimes of humanity, for all the blood that they've shed; that it will make it not only possible to forgive but to justify all that has happened.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+49:       “You will burn and you will burn out; you will be healed and come back again.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+50:       “A beast can never be as cruel as a human being, so artistically, so picturesquely cruel.”    
+ 
+      Fyodor Dostoyevsky,  The Brothers Karamazov
+
+51:       “The centripetal force on our planet is still fearfully strong, Alyosha. I have a longing for life, and I go on living in spite of logic. Though I may not believe in the order of the universe, yet I love the sticky little leaves as they open in spring. I love the blue sky, I love some people, whom one loves you know sometimes without knowing why. I love some great deeds done by men, though I’ve long ceased perhaps to have faith in them, yet from old habit one’s heart prizes them. Here they have brought the soup for you, eat it, it will do you good. It’s first-rate soup, they know how to make it here. I want to travel in Europe, Alyosha, I shall set off from here. And yet I know that I am only going to a graveyard, but it’s a most precious graveyard, that’s what it is! Precious are the dead that lie there, every stone over them speaks of such burning life in the past, of such passionate faith in their work, their truth, their struggle and their science, that I know I shall fall on the ground and kiss those stones and weep over them; though I’m convinced in my heart that it’s long been nothing but a graveyard. And I shall not weep from despair, but simply because I shall be happy in my tears, I shall steep my soul in emotion. I love the sticky leaves in spring, the blue sky — that’s all it is. It’s not a matter of intellect or logic, it’s loving with one’s inside, with one’s stomach.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+52:       “Above all, do not lie to yourself. A man who lies to himself and listens to his own lie comes to a point where he does not discern any truth either in himself or anywhere around him, and thus falls into disrespect towards himself and others. Not respecting anyone, he ceases to love, and having no love, he gives himself up to passions and coarse pleasures in order to occupy and amuse himself, and in his vices reaches complete beastiality, and it all comes form lying continually to others and himself. A man who lies to himself is often the first to take offense. it sometimes feels very good to take offense, doesn't it? And surely he knows that no one has offended him, and that he himself has invented the offense and told lies just for the beauty of it, that he has exaggerated for the sake of effect, that he has picked up on a word and made a mountain out of a pea--he knows all of that, and still he is the first to take offense, he likes feeling offended, it gives him great pleasure, and thus he reaches the point of real hostility...”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+53:       “And what's strange, what would be marvelous, is not that God should really exist; the marvel is that such an idea, the idea of the necessity of God, could enter the head of such a savage, vicious beast as man.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+54:       “Love all God’s creation, both the whole and every grain of sand. Love every leaf, every ray of light. Love the animals, love the plants, love each separate thing. If thou love each thing thou wilt perceive the mystery of God in all; and when once thou perceive this, thou wilt thenceforward grow every day to a fuller understanding of it: until thou come at last to love the whole world with a love that will then be all-embracing and universal.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+55:       “The more I love humanity in general the less I love man in particular. In my dreams, I often make plans for the service of humanity, and perhaps I might actually face crucifixion if it were suddenly necessary. Yet I am incapable of living in the same room with anyone for two days together. I know from experience. As soon as anyone is near me, his personality disturbs me and restricts my freedom. In twenty-four hours I begin to hate the best of men: one because he’s too long over his dinner, another because he has a cold and keeps on blowing his nose. I become hostile to people the moment they come close to me. But it has always happened that the more I hate men individually the more I love humanity.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+56:       “كان يحبها كثيرا ولكنه كان يكره ذلك الافراط السخيف في إظهار المشاعر كان يكره تلك العواطف التي تشبه عواطف العجول”    
+ 
+      دستويفسكي,  الإخوة كارامزوف
+
+57:       “Be not forgetful of prayer. Every time you pray, if your prayer is sincere, there will be new feeling and new meaning in it, which will give you fresh courage, and you will understand that prayer is an education.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+58:       “Remember particularly that you cannot be a judge of anyone. For no one can judge a criminal until he recognizes that he is just such a criminal as the man standing before him, and that he perhaps is more than all men to blame for that crime. When he understands that, he will be able to be a judge. Though that sounds absurd, it is true. If I had been righteous myself, perhaps there would have been no criminal standing before me. If you can take upon yourself the crime of the criminal your heart is judging, take it at once, suffer for him yourself, and let him go without reproach. And even if the law itself makes you his judge, act in the same spirit so far as possible, for he will go away and condemn himself more bitterly than you have done. If, after your kiss, he goes away untouched, mocking at you, do not let that be a stumbling-block to you. It shows his time has not yet come, but it will come in due course. And if it come not, no matter; if not he, then another in his place will understand and suffer, and judge and condemn himself, and the truth will be fulfilled. Believe that, believe it without doubt; for in that lies all the hope and faith of the saints.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+59:       “They were like two enemies in love with one another.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+60:       “Do you know I've been sitting here thinking to myself: that if I didn't believe in life, if I lost faith in the woman I love, lost faith in the order of things, were convinced in fact that everything is a disorderly, damnable, and perhaps devil-ridden chaos, if I were struck by every horror of man's disillusionment -- still I should want to live. Having once tasted of the cup, I would not turn away from it till I had drained it! At thirty though, I shall be sure to leave the cup even if I've not emptied it, and turn away -- where I don't know. But till I am thirty I know that my youth will triumph over everything -- every disillusionment, every disgust with life. I've asked myself many times whether there is in the world any despair that could overcome this frantic thirst for life. And I've come to the conclusion that there isn't, that is until I am thirty.”    
+ 
+      Fyodor Dostoyevsky,  The Brothers Karamazov
+
+61:       “One can fall in love and still hate.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+62:       “Forgive me... for my love -for ruining you with my love.”    
+ 
+      Fyodor Dostoyevsky,  The Brothers Karamazov
+
+63:       “Love children especially, for they too are sinless like the angels; they live to soften and purify our hearts and, as it were, to guide us.”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+64:       “Nothing has ever been more insupportable for a man and a human society than freedom.–The Grand Inquisitor”    
+ 
+      Fyodor Dostoevsky,  The Brothers Karamazov
+
+65:       “الآلام أنواع : فهناك آلام تخفض قيمتنا أو تنقص قدرنا ، كالجوع مثلا ؛ فالناس تحب أن تصدقنا في ما يتعلق بهذا النوع من الآلام ، ليجعلوا من أنفسهم محسنين إلينا بعد ذلك. أما إذا كان الألم أرفع من هذا درجة أو درجتين ، إذا كان ألما نحتمله في النضال من اجل فكرة مثلا ، فإن الناس يرفضون أن يصدقوه، باستثناء قلة قليلة. وهم لا يصدقونه لأنهم حين نظروا إلى صاحبه رأوا أن رأسه ليس ذلك الرأس الذي لابد أن يكون في نظرهم رأس من يتألم في سبيل قضية رفيعة تلك الرفعة كلها. وهم عندئذ يأبون أن يتعاطفوا معه أي تعاطف؛ دون أن يكون في موقفهم هذا شيء من روح الشر على كل حال”    
+ 
+      دستويفسكي,  الإخوة كارامزوف
+
+66:       “Solitude is independence. It had been my wish and with the years I had attained it. It was cold. Oh, cold enough! But it was also still, wonderfully still and vast like the cold stillness of space in which the stars revolve.”    
  
       Hermann Hesse,  Steppenwolf
 
-2:       “You are willing to die, you coward, but not to live.”    
+67:       “You are willing to die, you coward, but not to live.”    
  
       Herman Hesse,  Steppenwolf
 
-3:       “There is no reality except the one contained within us. That is why so many people live such an unreal life. They take the images outside of them for reality and never allow the world within to assert itself.”    
+68:       “There is no reality except the one contained within us. That is why so many people live such an unreal life. They take the images outside of them for reality and never allow the world within to assert itself.”    
  
       Hermann Hesse,  Steppenwolf
 
-4:       “In eternity there is no time, only an instant long enough for a joke.”    
+69:       “In eternity there is no time, only an instant long enough for a joke.”    
  
       Hermann Hesse,  Steppenwolf
 
-1:       “We are healthy only to the extent that our ideas are humane.”    
+70:       “For what I always hated and detested and cursed above all things was this contentment, this healthiness and comfort, this carefully preserved optimism of the middle classes, this fat and prosperous brood of mediocrity.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+71:       “When I have neither pleasure nor pain and have been breathing for a while the lukewarm insipid air of these so called good and tolerable days, I feel so bad in my childish soul that I smash my moldering lyre of thanksgiving in the face of the slumbering god of contentment and would rather feel the very devil burn in me than this warmth of a well-heated room. A wild longing for strong emotions and sensations seethes in me, a rage against this toneless, flat, normal and sterile life. I have a mad impulse to smash something, a warehouse, perhaps, or a cathedral, or myself, to commit outrages, to pull off the wigs of a few revered idols...”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+72:       “Most men will not swim before they are able to.” Is that not witty? Naturally, they won't swim! They are born for the solid earth, not for the water. And naturally they wont think. They are made for life, not for thought. Yes, and he who thinks, what’s more, he who makes thought his business, he may go far in it, but he has bartered the solid earth for the water all the same, and one day he will drown.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+73:       “I am in truth the Steppenwolf that I often call myself; that beast astray that finds neither home nor joy nor nourishment in a world that is strange and incomprehensible to him.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+74:       “A wild longing for strong emotions and sensations seethes in me, a rage against this toneless, flat, normal and sterile life. I have a mad impulse to smash something, a warehouse perhaps, or a cathedral, or myself, to committ outrages...”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+75:       “How absurd these words are, such as beast and beast of prey. One should not speak of animals in that way. They may be terrible sometimes, but they're much more right than men...They're never in any embarrassment. They always know what to do and how to behave themselves. They don't flatter and they don't intrude. They don't pretend. They are as they are, like stones or flowers or stars in the sky.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+76:       “There are always a few such people who demand the utmost of life and yet cannot come to terms with its stupidity and crudeness.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+77:       “You should not take old people who are already dead seriously. It does them injustice. We immortals do not like things to be taken seriously. We like joking. Seriousness, young man, is an accident of time. It consists, I don't mind telling you in confidence, in putting too high a value on time. I, too, once put too high a value on time. For that reason I wished to be a hundred years old. In eternity, however, there is no time, you see. Eternity is a mere moment, just long enough for a joke.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+78:       “How foolish it is to wear oneself out in vain longing for warmth! Solitude is independence.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+79:       “But it's a poor fellow who can't take his pleasure without asking other people's permission.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+80:       “I want to tell you something today, something that I have known for a long while, and you know it too; but perhaps you have never said it to yourself. I am going to tell you now what it is that I know about you and me and our fate. You, Harry, have been an artist and a thinker, a man full of joy and faith, always on the track of what is great and eternal, never content with the trivial and petty. But the more life has awakened you and brought you back to yourself, the greater has you need been and the deeper the sufferings and dread and despair that have overtaken you, till you were up to your neck in them. And all that you once knew and loved and revered as beautiful and sacred, all the belief you once had in mankind and our high destiny, has been of no avail and has lost its worth and gone to pieces. Your faith found no more air to breathe. And suffocation is a hard death. Is that true, Harry? Is that your fate?”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+81:       “His life oscillates, as everyone's does, not merely between two poles, such as the body and the spirit, the saint and the sinner, but between thousands and thousands.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+82:       “I do want more. I am not content with being happy. I was not made for it. It is not my destiny. My destiny is the opposite.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+83:       “The man of power is ruined by power, the man of money by money, the submissive man by subservience, the pleasure seeker by pleasure.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+84:       “Every age, every culture, every custom and tradition has its own character, its own weakness and its own strength, it beauties and ugliness; accepts certain sufferings as matters of course, puts up patiently with certain evils. Human life is reduced to real suffering, to hell, only when two ages, two cultures and religions overlap... Now there are times when a whole generation is caught in this way between two ages, two modes of life, with the consequence that it loses all power to understand itself and has no standard, no security, no simple acquiescence. Naturally, every one does not feel this equally strongly.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+85:       “Once it happened, as I lay awake at night, that I suddenly spoke in verses, in verses so beautiful and strange that I did not venture to think of writing them down, and then in the morning they vanished; and yet they lay hidden within me like the hard kernel within an old brittle husk.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+86:       “I cannot understand what pleasures and joys they are that drive people to the overcrowded railways and hotels, into the packed cafés with the suffocating and oppressive music, to the Bars and variety entertainments, to World Exhibitions, to the Corsos. I cannot understand nor share these joys, though they are within my reach, for which thousands of others strive. On the other hand, what happens to me in my rare hours of joy, what for me is bliss and life and ecstasy and exaltation, the world in general seeks at most in imagination; in life it finds it absurd. And in fact, if the world is right, if this music of the cafés, these mass enjoyments and these Americanised men who are pleased with so little are right, then I am wrong, I am crazy. I am in truth the Steppenwolf that I often call myself; that beast astray who finds neither home nor joy nor nourishment in a world that is strange and incomprehensible to him.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+87:       “A wild longing for strong emotions and sensations seethes in me, a rage against this toneless, flat, normal and sterile life.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+88:       “Our leaders strain every nerve and with success, to get the next war going, while the rest of us, meanwhile, dance the fox trot, earn money and eat chocolates...And perhaps...it has always been the same and always will be, and what is called history at school, and all we learn by heart there about heroes and geniuses and great deeds and fine emotions, is all nothing but a swindle invented by the schoolmasters for educational reasons to keep children occupied for a given number of years. It has always been so and always will be. Time and the world, money and power belong to the small people and shallow people. To the rest, to the real men belongs nothing...eternity...it isn't fame. Fame exists in that sense only for the schoolmasters. No, it isn't fame. It is what I call eternity...The music of Mozart belongs there and the poetry of your great poets. The saints, too, belong there, who have worked wonders and suffered martyrdom and given a great example to men. But the image of every true act, the strength of every true feeling, belongs to eternity just as much, even though no one knows of it or sees it or records it or hands it down to posterity. In eternity there is no posterity...It is the kingdom on the other side of time and appearances. It is there we belong. There is our home. It is that which our heart strives for...And we have no one to guide us. Our only guide is our homesickness.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+89:       “The mistaken and unhappy notion that a man is an enduring unity is known to you. It is also known to you that a man consists of a multitude of souls, of numerous selves. The separation of the unity of the personality into these numerous pieces passes for madness. Science has invented the name schizomania for it. Science is in this so far right as no multiplicity maybe dealt with unless there be a series, a certain order and grouping. It is wrong insofar as it holds that one only and binding lifelong order is possible for the multiplicity of subordinate selves. This error of science has many unpleasant consequences, and the single advantage of simplifying the work of the state-appointed pastors and masters and saving them the labors of original thought. In consequence of this error many persons pass for normal, and indeed for highly valuable members of society, who are incurably mad; and many, on the other hand, are looked upon as mad who are geniuses...This is the art of life. You may yourself as an artist develop the game of your life and lend it animation. You may complicate and enrich it as you please. It lies in your hands. Just as madness, in a higher sense, is the beginning of all wisdom, so is schizomania the beginning of all art and all fantasy.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+90:       “I would traverse not once more, but often the hell of my inner being. One day I would be a better hand at the game. One day I would learn how to laugh. Pablo was waiting for me, and Mozart too.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+91:       “Now true humor begins when a man ceases to take himself seriously.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+92:       “Life is always frightful. We cannot help it and we are responsible all the same. One's born and at once one is guilty.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+93:       “In fear I hurried this way and that. I had the taste of blood and chocolate in my mouth, the one as hateful as the other.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+94:       “The cup was emptied and would never be filled again.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+95:       “Man is an onion made up of a hundred integuments, a texture made up of many threads. The ancient Asiatics knew this well enough, and in the Buddhist Yoga an exact technique was devised for unmasking the illusion of the personality. The human merry-go-round sees many changes: the illusion that cost India the efforts of thousands of years to unmask is the same illusion that the West has labored just as hard to maintain and strengthen.”    
+ 
+      Hermann Hesse,  Steppenwolf
+
+96:       “We are healthy only to the extent that our ideas are humane.”    
  
       Kurt Vonnegut,  Breakfast of Champions
 
-2:       “Kilgore Trout once wrote a short story which was a dialogue between two pieces of yeast. They were discussing the possible purposes of life as they ate sugar and suffocated in their own excrement. Because of their limited intelligence, they never came close to guessing that they were making champagne.”    
+97:       “Kilgore Trout once wrote a short story which was a dialogue between two pieces of yeast. They were discussing the possible purposes of life as they ate sugar and suffocated in their own excrement. Because of their limited intelligence, they never came close to guessing that they were making champagne.”    
  
       Kurt Vonnegut,  Breakfast of Champions
 
-3:       “The waitress brought me another drink. She wanted to light my hurricane lamp again. I wouldn't let her."Can you see anything in the dark, with your sunglasses on?" she asked me."The big show is inside my head," I said.”    
+98:       “The waitress brought me another drink. She wanted to light my hurricane lamp again. I wouldn't let her."Can you see anything in the dark, with your sunglasses on?" she asked me."The big show is inside my head," I said.”    
  
       Kurt Vonnegut,  Breakfast of Champions
 
-4:       “I couldn't help wondering if that was what God put me on Earth for--to find out how much a man could take without breaking.”    
+99:       “I couldn't help wondering if that was what God put me on Earth for--to find out how much a man could take without breaking.”    
  
       Kurt Vonnegut,  Breakfast of Champions
 
-1:       “If complete and utter chaos was lightning, then he'd be the sort to stand on a hilltop in a thunderstorm wearing wet copper armour and shouting 'All gods are bastards!”    
+100:       “I can have oodles of charm when I want to.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+101:       “Charm was a scheme for making strangers like and trust a person immediately, no matter what the charmer had in mind.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+102:       “So, in the interests of survival, they trained themselves to be agreeing machines instead of thinking machines. All their minds had to do was to discover what other people were thinking, and then they thought that, too.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+103:       “in nonsense is strength”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+104:       “As I approached my fiftieth birthday, I had become more and more enraged and mystified by the idiot decisions made by my countrymen. And then I had come suddenly to pity them, for I understood how innocent and natural it was for them to behave so abominably, and with such abominable results: They were doing their best to live like people invented in story books. This was the reason Americans shot each other so often: It was a convenient literary device for ending short stories and books.Why were so many Americans treated by their government as though their lives were as disposable as paper facial tis-sues? Because that was the way authors customarily treated bit-part players in their made-up tales.And so on.Once I understood what was making America such a dangerous, unhappy nation of people who had nothing to do with real life, I resolved to shun storytelling. I would write about life. Every person would be exactly as important as any other. All facts would also be given equal weightiness. Nothing would be left out. Let others bring order to chaos. I would bring chaos to order, instead, which I think I have done. If all writers would do that, then perhaps citizens not in the literary trades will understand that there is no order in the world around us, that we must adapt ourselves to the requirements of chaos instead. It is hard to adapt to chaos, but it can be done. I am living proof of that: It can be done.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+105:       “Of course it is exhausting, having to reason all the time in a universe which wasn't meant to be reasonable.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+106:       “There is no order in the world around us, we must adapt ourselves to the requirements of chaos instead.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+107:       “New knowledge is the most valuable commodity on earth. The more truth we have to work with, the richer we become.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+108:       “The things other people have put into my head, at any rate, do not fit together nicely, are often useless and ugly, are out of proportion with one another, are out of proportion with life as it really is outside my head.”    
+ 
+      Kurt Vonnegut Jr.,  Breakfast of Champions
+
+109:       “I can't tell if you're serious or not,' said the driver. I won't know myself until I find out if life is serious or not,' said Trout. 'It's dangerous, I know, and it can hurt a lot. That doesn't necessarily mean it's serious, too.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+110:       “Seems like the only kind of job an American can get these days is committing suicide in some way.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+111:       “You know what truth is? [...] It's some crazy thing my neighbor believes. If I want to make friends with him, I ask him what he believes. He tells me, and I say, "Yeah, yeah - ain't it the truth?”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+112:       “People took such awful chances with chemicals and their bodies because they wanted the quality of their lives to improve. They lived in ugly places where there were only ugly things to do. They didn't own doodley-squat, so they couldn't improve their surroundings. so they did their best to make their insides beautiful instead.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+113:       “Fucking was how babies were made.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+114:       “Dear Sir, poor sir, brave sir." he read, "You are an experiment by the Creator of the Universe. You are the only creature in the entire Universe who has free will. You are the only one who has to figure out what to do next - and why. Everybody else is a robot, a machine. Some persons seem to like you, and others seem to hate you, and you must wonder why. They are simply liking machines and hating machines. You are pooped and demoralized, " read Dwayne. "Why wouldn't you be? Of course it is exhausting, having to reason all the time in a universe which wasn't meant to be reasonable.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+115:       “What is the purpose of life?...To be the eyes and ears and conscience of the Creator of the Universe, you fool!”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+116:       “Goodbye blue Monday.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+117:       “Earthlings went on being friendly, when they should have been thinking instead.”    
+ 
+      Kurt Vonnegut Jr.,  Breakfast of Champions
+
+118:       “Roses are red,And ready for plucking,You're sixteen,And ready for high school.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+119:       “Trout was petrified there on Forty-second Street. It had given him alife not worth living, but I had also given him an iron will to live. Thiswas a common combination on the planet Earth.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+120:       “Much of the conversation in the country consisted of lines from television shows, both past and present.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+121:       “As for myself: I had come to the conclusion that there was nothing sacred about myself or any human being, that we were all machines, doomed to collide and collide and collide. For want of anything better to do, we became fans of collisions. Sometimes I wrote well about collisions, which meant I was a writing machine in good repair. Sometimes I wrote badly, which meant I was a writing machine in bad repair. I no more harbored sacredness than did a Pontiac, a mousetrap, or a South Bend Lathe.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+122:       “Symbols can be so beautiful, sometimes.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+123:       “The women all had big minds because they were big animals, but they didn't use them for this reason: unusual ideas could make enemies and the women, if they were going to achieve any sort of comfort and safety, needed all the friends they could get. So, in the interest of survival they trained themselves to be agreeing machines. All their minds had to do was to discover what other people were thinking and then they thought it too.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+124:       “The planet was being destroyed by manufacturing processes, and what was being manufactured was lousy, by and large.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+125:       “Dwayne's bad chemicals made him take a loaded thirty-eight caliber revolver from under his pillow and stick it in his mouth. This was a tool whose only purpose was to make holes in human beings.”    
+ 
+      Kurt Vonnegut,  Breakfast of Champions
+
+126:       “If complete and utter chaos was lightning, then he'd be the sort to stand on a hilltop in a thunderstorm wearing wet copper armour and shouting 'All gods are bastards!”    
  
       Terry Pratchett,  The Color of Magic
 
-2:       “No, what he didn't like about heroes was that they were usually suicidally gloomy when sober and homicidally insane when drunk.”    
+127:       “No, what he didn't like about heroes was that they were usually suicidally gloomy when sober and homicidally insane when drunk.”    
  
       Terry Pratchett,  The Color of Magic
 
-3:       “Some pirates achieved immortality by great deeds of cruelty or derring-do. Some achieved immortality by amassing great wealth. But the captain had long ago decided that he would, on the whole, prefer to achieve immortality by not dying.”    
+128:       “Some pirates achieved immortality by great deeds of cruelty or derring-do. Some achieved immortality by amassing great wealth. But the captain had long ago decided that he would, on the whole, prefer to achieve immortality by not dying.”    
  
       Terry Pratchett,  The Color of Magic
 
-4:       “You can't map a sense of humor. Anyway, what is a fantasy map but a space beyond which There Be Dragons? On the Discworld we know that There Be Dragons Everywhere. They might not all have scales and forked tongues, but they Be Here all right, grinning and jostling and trying to sell you souvenirs. ”    
+129:       “You can't map a sense of humor. Anyway, what is a fantasy map but a space beyond which There Be Dragons? On the Discworld we know that There Be Dragons Everywhere. They might not all have scales and forked tongues, but they Be Here all right, grinning and jostling and trying to sell you souvenirs. ”    
  
       Terry Pratchett,  The Color of Magic
 
-1:       “The worst part of holding the memories is not the pain. It's the loneliness of it. Memories need to be shared.”    
+130:       “Twoflower was a tourist, the first ever seen on the discworld. Tourist, Rincewind had decided, meant 'idiot'.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+131:       “My name is immaterial,' she said.That's a pretty name,' said Rincewind.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+132:       “On the Disc, the Gods aren't so much worshipped, as they are blamed.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+133:       “It is at this point that normal language gives up, and goes and has a drink.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+134:       “If I were you, I'd sue my face for slander.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+135:       “It was all very well going on about pure logic and how the universe was ruled by logic and the harmony of numbers, but the plain fact of the matter was that the Disc was manifestly traversing space on the back of a giant turtle and the gods had a habit of going round to atheists' houses and smashing their windows.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+136:       “Rincewind tried to force the memory out of his mind, but it was rather enjoying itself there, terrorizing the other occupants and kicking over the furniture.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+137:       “Every intelligent being, whether it breathes or not, coughs nervously at some time in its life.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+138:       “We've strayed into a zone with a high magical index,' he said. 'Don't ask me how. Once upon a time a really powerful magic field must have been generated here, and we're feeling the after-effects.'Precisely,' said a passing bush.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+139:       “It was octarine, the colour of magic. It was alive and glowing and vibrant and it was the undisputed pigment of the imagination, because wherever it appeared it was a sign that mere matter was a servant of the powers of the magical mind. It was enchantment itself.But Rincewind always thought it looked a sort of greenish-purple.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+140:       “Don't you understand?" snarled Rincewind. "We are going over the Edge, godsdammit!""Can't we do anything about it?""No!""Then I can't see the sense in panicking," said Twoflower calmly.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+141:       “I’ve seen excitement, and I’ve seen boredom. And boredom was best.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+142:       “That's what's so stupid about the whole magic thing, you know. You spend twenty years learning the spell that makes nude virgins appear in your bedroom, and then you're so poisoned by quicksilver fumes and half-blind from reading old grimoires that you can't remember what happens next.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+143:       “Magic never dies. It merely fades away.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+144:       “In an instant he became aware that the tourist was about to try his own peculiar brand of linguistics, which meant that he would speak loudly and slowly in his own language.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+145:       “He thought about how it might be to be, say, a fox confronted with an angry sheep. A sheep moreover, that could afford to employ wolves.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+146:       “Sometimes I think a man could wander across the disc all his life and not see everything there is to see,' said Twoflower. 'And now it seems there are lots of other worlds as well. When I think I might die without seeing a hundredth of all there is to see it makes me feel,' he paused, then added, 'well, humble, I suppose. And very angry, of course.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+147:       “He talks pretty big for a gutter wizard," he muttered."You don't understand at all," said the wizard wearily. "I'm so scared of you my spine has turned to jelly, it's just that I'm suffering from an overdose of terror right now. I mean, when I've got over that then I'll have time to be decently frightened of you.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+148:       “Oh no, not -' OF COURSE, WHAT'S SO BLOODY VEXING ABOUT THE WHOLE BUSINESS IS THAT I WAS EXPECTING TO MEET THEE IN PSEPHOPOLOLIS'But that's five hundred miles away!'YOU DON'T HAVE TO TELL ME, THE WHOLE SYSTEM'S GOT SCREWED UP AGAIN, I CAN SEE THAT. LOOK, THERE'S NO CHANCE OF YOU-?Rincewind backed away, hands spread protectively in front of him...'Not a chance!'I COULD LEND YOU A VERY FAST HORSE.'No!'IT WON'T HURT A BIT.'No!' Rincewind turned and ran. Death watched him go, and shrugged bitterly.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+149:       “But in his experience it was only a matter of time before the normal balance of the universe restored itself and started doing the usual terrible things to him.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+150:       “On the Disc the gods dealt severely with atheists.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+151:       “Either dragons should exist completely or fail to exist at all, he felt. A dragon only half-existing was worse than the extremes.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+152:       “[Rincewind] drew his sword and, with a smooth overarm throw, completely failed to hit the troll.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+153:       “Everyone has gods. You just don't think they're gods.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+154:       “They shed a rather unpleasant glow that didn't so much illuminate, as outline the darkness.”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+155:       “(Plants on the disc, while including the categories known commonly as annuals, which were sown this year to come up later this year, biennials, sown this year to grow next year, and perennials, sown this year to grow until further notice, also included a few rare re-annuals which, because of an unusual four-dimensional twist in their genes, could be planted this year to come up last year. The vul nut vine was particularly exceptional in that it could flourish as many as eight years prior to its seed actually being sown. Vul nut wine was reputed to give certain drinkers an insight into the future which was, from the nut's point of view, the past. Strange but true.)”    
+ 
+      Terry Pratchett,  The Color of Magic
+
+156:       “The worst part of holding the memories is not the pain. It's the loneliness of it. Memories need to be shared.”    
  
       Lois Lowry,  The Giver
 
-2:       “We gained control of many things. But we had to let go of others.”    
+157:       “We gained control of many things. But we had to let go of others.”    
  
       Lois Lowry,  The Giver
 
-3:       “If you were to be lost in the river, Jonas, your memories would not be lost with you. Memories are forever.”    
+158:       “If you were to be lost in the river, Jonas, your memories would not be lost with you. Memories are forever.”    
  
       Lois Lowry,  The Giver
 
-4:       “For the first time, he heard something that he knew to be music. He heard people singing. Behind him, across vast distances of space and time, from the place he had left, he thought he heard music too. But perhaps, it was only an echo.”    
+159:       “For the first time, he heard something that he knew to be music. He heard people singing. Behind him, across vast distances of space and time, from the place he had left, he thought he heard music too. But perhaps, it was only an echo.”    
  
       Lois Lowry,  The Giver
 
-1:       “You know what charm is: a way of getting the answer yes without having asked any clear question.”    
+160:       “It's the choosing that's important, isn't it?”    
+ 
+      Lois Lowry,  The Giver
+
+161:       “I feel sorry for anyone who is in a place where he feels strange and stupid.”    
+ 
+      Lois Lowry,  The Giver
+
+162:       “Of course they needed to care. It was the meaning of everything.”    
+ 
+      Lois Lowry,  The Giver
+
+163:       “I liked the feeling of love,' [Jonas] confessed. He glanced nervously at the speaker on the wall, reassuring himself that no one was listening. 'I wish we still had that,' he whispered. 'Of course,' he added quickly, 'I do understand that it wouldn't work very well. And that it's much better to be organized the way we are now. I can see that it was a dangerous way to live.'...'Still,' he said slowly, almost to himself, 'I did like the light they made. And the warmth.”    
+ 
+      Lois Lowry,  The Giver
+
+164:       “The life where nothing was ever unexpected. Or inconvenient. Or unusual. The life without colour, pain or past.”    
+ 
+      Lois Lowry,  The Giver
+
+165:       “They were satisfied with their lives which had none of the vibrance his own was taking on. And he was angry at himself, that he could not change that for them.”    
+ 
+      Lois Lowry,  The Giver
+
+166:       “Even trained for years as they all had been in precision of language, what words could you use which would give another the experience of sunshine?”    
+ 
+      Lois Lowry,  The Giver
+
+167:       “I knew that there had been times in the past-terrible times-when people had destroyed others in haste,in fear, and had brought about their own destruction”    
+ 
+      Lois Lowry,  The Giver
+
+168:       “If everything's the same, then there aren't any choices! I want to wake up in the morning and decide things!”    
+ 
+      Lois Lowry,  The Giver
+
+169:       “Things could change, Gabe," Jonas went on. "Things could be different. I don't know how, but there must be some way for things to be different. There could be colors. And grandparents," he added, staring through the dimness toward the ceiling of his sleepingroom. "And everybody would have the memories.""You know the memories," he whispered, turning toward the crib.Garbriel's breathing was even and deep. Jonas liked having him there, though he felt guilty about the secret. Each night he gave memories to Gabriel: memories of boat rides and picnics in the sun; memories of soft rainfall against windowpanes; memories of dancing barefoot on a damp lawn."Gabe?"The newchild stirred slightly in his sleep. Jonas looked over at him."There could be love," Jonas whispered.”    
+ 
+      Lois Lowry,  The Giver
+
+170:       “Gabe?"The newchild stirred slightly in his sleep. Jonas looked over at him. "There could be love", Jonas whispered.”    
+ 
+      Lois Lowry,  The Giver
+
+171:       “Today is declared an unscheduled holiday.”    
+ 
+      Lois Lowry,  The Giver
+
+172:       “...now he saw the familiar wide river beside the path differently. He saw all of the light and color and history it contained and carried in its slow - moving water; and he knew that there was an Elsewhere from which it came, and an Elsewhere to which it was going”    
+ 
+      Lois Lowry,  The Giver
+
+173:       “He knew that there was no quick comfort for emotions like those. They were deeper and they did not need to be told. They were felt.”    
+ 
+      Lois Lowry,  The Giver
+
+174:       “You may lie.”    
+ 
+      Lois Lowry,  The Giver
+
+175:       “I don't know what you mean when you say 'the whole world' or 'generations before him.'I thought there was only us. I thought there was only now.”    
+ 
+      Lois Lowry,  The Giver
+
+176:       “Behind him,across vast distances of space and time, from the place he had left, he thought he heard music too. But perhaps it was only an echo.”    
+ 
+      Lois Lowry,  The Giver
+
+177:       “It's just that... without the memories it's all meaningless.”    
+ 
+      Lois Lowry,  The Giver
+
+178:       “What if they were allowed to choose their own mate? And chose wrong?”    
+ 
+      Lois Lowry,  The Giver
+
+179:       “He hunched his shoulders and tried to make himself smaller in the seat. He wanted to disappear, to fade away, not to exist.”    
+ 
+      Lois Lowry,  The Giver
+
+180:       “There's much more. There's all that goes beyond – all ... that is Elsewhere – and all that goes back, and back, and back. I received all of those, when I was selected. And here in this room, all alone, I re-experience them again and again. It is how wisdom comes. And how we shape our future.”    
+ 
+      Lois Lowry,  The Giver
+
+181:       “He wept because he was afraid now that he could not save Gabriel. He no longer cared about himself”    
+ 
+      Lois Lowry,  The Giver
+
+182:       “And here in this room, I re-experience the memories again and again it is how wisdom comes and how we shape our future.”    
+ 
+      Lois Lowry,  The Giver
+
+183:       “It was almost December, and Jonas was beginning to be frightened.”    
+ 
+      Lois Lowry,  The Giver
+
+184:       “His mind reeled. Now, empowered to ask questions of utmost rudeness-and promised answers-he could, conceivably (though it was almost unimaginable), ask someone, some adult, his father perhaps: "Do you lie?"But he would have no way of knowing if the answer he received was true.”    
+ 
+      Lois Lowry,  The Giver
+
+185:       “- My instructors in science and technology have taught us about how the brain works. It's full of electrical impulses. It's like a computer. If you stimulate one part of the brain with an electrode, it...- They know nothing.”    
+ 
+      Lois Lowry,  The Giver
+
+186:       “You know what charm is: a way of getting the answer yes without having asked any clear question.”    
  
       Albert Camus,  The Fall
 
-2:       “I used to advertise my loyalty and I don't believe there is a single person I loved that I didn't eventually betray.”    
+187:       “I used to advertise my loyalty and I don't believe there is a single person I loved that I didn't eventually betray.”    
  
       Albert Camus,  The Fall
 
-3:       “People hasten to judge in order not to be judged themselves.”    
+188:       “People hasten to judge in order not to be judged themselves.”    
  
       Albert Camus,  The Fall
 
-4:       “Men are never convinced of your reasons, of your sincerity, of the seriousness of your sufferings, except by your death. So long as you are alive, your case is doubtful; you have a right only to their skepticism.”    
+189:       “Men are never convinced of your reasons, of your sincerity, of the seriousness of your sufferings, except by your death. So long as you are alive, your case is doubtful; you have a right only to their skepticism.”    
  
       Albert Camus,  The Fall
 
-1:       “The shortest route to courage is absolute ignorance.”    
+190:       “Friendship is less simple. It is long and hard to obtain but when one has it there's no getting rid of it; one simply has to cope with it. Don't think for a minute that your friends will telephone you every evening, as they ought to, in order to find out if this doesn't happen to be the evening when you are deciding to commit suicide, or simply whether you don't need company, whether you are not in the mood to go out. No, don't worry, they'll ring up the evening you are not alone, when life is beautiful. As for suicide, they would be more likely to push you to it, by virtue of what you owe to yourself, according to them. May heaven protect us, cher Monsieur, from being set upon a pedestal by our friends!”    
  
-      Dan Simmons,  Endymion
+      Albert Camus,  The Fall
 
-2:       “I loved you backward and forward in time. I loved you beyond boundaries of time and space.”    
+191:       “Don't lies eventually lead to the truth? And don't all my stories, true or false, tend toward the same conclusion? Don't they all have the same meaning? So what does it matter whether they are true or false if, in both cases, they are significant of what I have been and what I am? Sometimes it is easier to see clearly into the liar than into the man who tells the truth. Truth, like light, blinds. Falsehood, on the contrary, is a beautiful twilight that enhances every object.”    
  
-      Dan Simmons,  Endymion
+      Albert Camus,  The Fall
 
-3:       “But as with so many things in our lives, the reason for doing something is not the important thing. It is the fact of doing that remains.”    
+192:       “I love life - that’s my real weakness. I love it so much that I am incapable of imagining what is not life.”    
  
-      Dan Simmons,  Endymion
+      Albert Camus,  The Fall
 
-4:       “The universe is indifferent to our fates. This was the crushing burden that the character took with him as he struggled through the surf toward survival or extinction. The universe just does not give a shit.”    
+193:       “Your success and happiness are forgiven you only if you generously consent to share them. But to be happy it is essential not to be too concerned with others. Consequently, there is no escape. Happy and judged, or absolved and wretched.”    
  
-      Dan Simmons,  Endymion
+      Albert Camus,  The Fall
 
-1:       “I know what cancer was. How is it like humankind?"Sek Hardeen's perfectly modulated, softly accented tones showed a hint of agitation. "We have spread out through the galaxy like cancer cells through a living body, Duré. We multiply without thought to the countless life forms that must die or be pushed aside so that we may breed and flourish. We eradicate competing forms of intelligent life.”    
+194:       “He had been bored, that's all, bored like most people. Hence he had made himself out of whole cloth a life full of complications and drama. Something must happen - and that explains most human commitments. Something must happen, even loveless slavery, even war or death. Hurray then for funerals!”    
  
-      Dan Simmons,  The Fall of Hyperion
+      Albert Camus,  The Fall
 
-2:       “In the end--when all else is dust--loyalty to those we love is all we can carry with us to the grave. Faith--true faith--was trusting in that love.”    
+195:       “I like people who dream or talk to themselves interminably; I like them, for they are double. They are here and elsewhere.”    
  
-      Dan Simmons,  The Fall of Hyperion
+      Albert Camus,  The Fall
 
-3:       “Mobs have passions, not brains.”    
+196:       “We are all exceptional cases. We all want to appeal against something! Each of us insists on being innocent at all cost, even if he has to accuse the whole human race and heaven itself.”    
  
-      Dan Simmons,  The Fall of Hyperion
+      Albert Camus,  The Fall
 
-4:       “Its hard to die. Harder to live”    
+197:       “God is not needed to create guilt or to punish. Our fellow men suffice, aided by ourselves. You were speaking of the Last Judgement. Allow me to laugh respectfully. I shall wait for it resolutely, for I have known what is worse, the judgement of men. For them, no extenuating circumstances; even the good intention is ascribed to crime. Have you at least heard of the spitting cell, which a nation recently thought up to prove itself the greatest on earth? A walled-up box in which the prisoner can stand without moving. The solid door that locks him in the cement shell stops at chin level. Hence only his face is visible, and every passing jailer spits copiously on it. The prisoner, wedged into his cell, cannot wipe his face, though he is allowed, it is true. to close his eyes. Well, that, mon cher, is a human invention. They didn't need God for that little masterpiece.”    
  
-      Dan Simmons,  The Fall of Hyperion
+      Albert Camus,  The Fall
 
-1:       “It's not the end of the world at all," he said. "It's only the end for us. The world will go on just the same, only we shan't be in it. I dare say it will get along all right without us.”    
+198:       “But the heart has its own memory and I have forgotten nothing.”    
  
-      Nevil Shute,  On the Beach
+      Albert Camus,  The Fall
 
-2:       “No, it wasn't an accident, I didn't say that. It was carefully planned, down to the tiniest mechanical and emotional detail. But it was a mistake.”    
+199:       “لا تظن لحظة واحدة أن أصدقاءك سيتصلون بك تلفونياً كل مساء، كما يجب عليهم أن يفعلوا، لكي يعرفوا هل أن هذا المساء هو المساء الذي تقرر فيه أن تنتحر، أو هل أنت في حاجة إلى الرفقة، أو أنك لست في مزاج يتيح لك الخروج.كلا، لا تقلق، فإنهم سيتصلون بك في المساء الذي لا تكون فيه وحدك، حين تكون الحياة جميلة. أما بالنسبة للإنتحار، فإنهم سيدفعونك إليه على الأكثر، بسبب ما تدين به لنفسك، كما يعتقدون”    
  
-      John Paxton,  On the Beach
+      ألبير كامو,  The Fall
 
-3:       “I'm glad we haven't got newspapers now. It's been much nicer without them.”    
+200:       “The truth is that every intelligent man, as you know, dreams of being a gangster and of ruling over society by force alone. As it is not so easy as the detective novels might lead one to believe, one generally relies on politics and joins the cruelest party.What does it matter, after all, if by humiliating one's mind one succeeds in dominating every one? I discovered in myself sweet dreams of oppression.”    
  
-      Nevil Shute,  On the Beach
+      Albert Camus,  The Fall
 
-4:       “Some games are fun even when you lose. Even when you know you're going to lose before you start. It's fun just playing them.”    
+201:       “Today we are always as ready to judge as we are to fornicate.”    
  
-      Nevil Shute,  On the Beach
+      Albert Camus,  The Fall
 
-1:       “If you hate a person, you hate something in him that is part of yourself. What isn't part of ourselves doesn't disturb us.”    
+202:       “Of course, true love is exceptional - two or three times a century, more or less. The rest of the time there is vanity or boredom.”    
  
-      Hermann Hesse,  Demian: Die Geschichte von Emil Sinclairs Jugend
+      Albert Camus,  The Fall
 
-2:       “I have been and still am a seeker, but I have ceased to question stars and books; I have begun to listen to the teaching my blood whispers to me.”    
+203:       “Believe me, for certain men at least, not taking what one doesn't desire is the hardest thing in the world.”    
  
-      Hermann Hesse,  Demian: Die Geschichte von Emil Sinclairs Jugend
+      Albert Camus,  The Fall
 
-3:       “I live in my dreams — that's what you sense. Other people live in dreams, but not in their own. That's the difference.”    
+204:       “I have a very old and very faithful attachment for dogs. I like them because they always forgive.”    
  
-      Herman Hesse,  Demian: Die Geschichte von Emil Sinclairs Jugend
+      Albert Camus,  The Fall
 
-4:       “Love must not entreat,' she added, 'or demand. Love must have the strength to become certain within itself. Then it ceases merely to be attracted and begins to attract.”    
+205:       “Thus I progressed on the surface of life, in the realm of words as it were, never in reality. All those books barely read, those friends barely loved, those cities barely visited, those women barely possessed! I went through the gestures out of boredom or absent-mindedness. Then came human beings; they wanted to cling, but there was nothing to cling to, and that was unfortunate--for them. As for me, I forgot. I never remembered anything but myself.”    
  
-      Hermann Hesse,  Demian: Die Geschichte von Emil Sinclairs Jugend
+      Albert Camus,  The Fall
 
-1:       “I believe that words uttered in passion contain a greater living truth than do those words which express thoughts rationally conceived. It is blood that moves the body. Words are not meant to stir the air only: they are capable of moving greater things.”    
+206:       “We're going forward, but nothing changes.”    
  
-      Natsume Soseki,  Kokoro
+      Albert Camus,  The Fall
 
-2:       “You seem to be under the impression that there is a special breed of bad humans. There is no such thing as a stereotype bad man in this world. Under normal conditions, everybody is more or less good, or, at least, ordinary. But tempt them, and they may suddenly change. That is what is so frightening about men.”    
+207:       “Ah cher ami, how poor in invention men are! They are They always think one commits suicide for a reason. But it's quite possible to commit suicide for two reasons. No, that never occurs to them. So what's the good of dying intentionally, of sacrificing yourself to the idea you want people to have of you? Once you are dead, they will take advantage of it to attribute idiotic or vulgar motives to your action. Martyrs, cher ami, must choose between being forgotten, mocked, or made use of. As for being understood--never!”    
  
-      Natsume Soseki,  Kokoro
+      Albert Camus,  The Fall
 
-3:       “I do not want your admiration now, because I do not want your insults in the future. I bear with my loneliness now, in order to avoid greater loneliness in the years ahead. You see, loneliness is the price we have to pay for being born in this modern age, so full of freedom, independence, and our own egotistical selves.”    
+208:       “A single sentence will suffice for modern man. He fornicated and read the papers. After that vigorous definition, the subject will be, if I may say so, exhausted.”    
  
-      Natsume Sōseki,  Kokoro
+      Albert Camus,  The Fall
 
-4:       “You see, loneliness is the price we have to pay for being born in this modern age, so full of freedom, independence, and our own egoistical selves.”    
+209:       “But too many people now climb onto the cross merely to be seen from a greater distance, even if they have to trample somewhat on the one who has been there so long.”    
  
-      Natsume Soseki,  Kokoro
+      Albert Camus,  The Fall
 
-1:       “Pain and suffering are always inevitable for a large intelligence and a deep heart. The really great men must, I think, have great sadness on earth.”    
+210:       “One plays at being immortal and after a few weeks one doesn't even know whether or not one can hang on till the next day.”    
  
-      Fyodor Dostoevsky,  Crime and Punishment
+      Albert Camus,  The Fall
 
-2:       “To go wrong in one's own way is better than to go right in someone else's.”    
+211:       “Empires and churches are born under the sun of death.”    
  
-      Fyodor Dostoevsky,  Crime and Punishment
+      Albert Camus,  The Fall
 
-3:       “The darker the night, the brighter the stars,  The deeper the grief, the closer is God!”    
+212:       “I felt as though I was partly unlearning what i had never learned and yet knew so well: I mean, how to live.”    
  
-      Fyodor Dostoevsky,  Crime and Punishment
+      Albert Camus,  The Fall
 
-4:       “We sometimes encounter people, even perfect strangers, who begin to interest us at first sight, somehow suddenly, all at once, before a word has been spoken.”    
+213:       “How could sincerity be a condition of friendship? A liking for the truth at all costs is a passion that spares nothing and that nothing can withstand.”    
  
-      Fyodor Dostoyevsky,  Crime and Punishment
+      Albert Camus,  The Fall
 
-1:       “Code is not like other how-computers-work books. It doesn't have big color illustrations of disk drives with arrows showing how the data sweeps into the computer. Code has no drawings of trains carrying a cargo of zeros and ones. Metaphors and similes are wonderful literary devices but they do nothing but obscure the beauty of technology.”    
+214:       “O young girl, throw yourself again into the water so that I might have a second time the chance to save the two of us!" A second time, eh, what imprudence! Suppose, dear sir, someone actually took our word for it? It would have to be fulfilled. Brr...! the water is so cold! But let's reassure ourselves. It's too late now, it will always be too late. Fortunately!”    
  
-      Charles Petzold,  Code: The Hidden Language of Computer Hardware and Software
+      Albert Camus,  The Fall
 
-2:       “In 1948, while working for Bell Telephone Laboratories, he published a paper in the Bell System Technical Journal entitled "A Mathematical Theory of Communication" that not only introduced the word bit in print but established a field of study today known as information theory. Information theory is concerned with transmitting digital information in the presence of noise (which usually prevents all the information from getting through) and how to compensate for that. In 1949, he wrote the first article about programming a computer to play chess, and in 1952 he designed a mechanical mouse controlled by relays that could learn its way around a maze. Shannon was also well known at Bell Labs for riding a unicycle and juggling simultaneously.”    
+215:       “I have to admit it humbly, mon cher compatriote, I was always bursting with vanity. I, I, I is the refrain of my whole life, which could be heard in everything I said. I could never talk without boasting, especially if I did so with that shattering discretion that was my specialty. It is quite true that I always lived free and powerful. I simply felt released in the regard to all the for the excellent reason that I recognized no equals. I always considered myself more intelligent than everyone else, as I’ve told you, but also more sensitive and more skillful, a crack shot, an incomparable driver, a better lover. Even in the fields in which it was easy for me to verify my inferiority–like tennis, for instance, in which I was but a passable partner–it was hard for me not to think that, with a little time and practice, I would surpass the best players. I admitted only superiorities in me and this explained my good will and serenity. When I was concerned with others, I was so out of pure condescension, in utter freedom, and all the credit went to me: my self-esteem would go up a degree.”    
  
-      Charles Petzold,  Code: The Hidden Language of Computer Hardware and Software
-
-3:       “We could just as reasonably base our number system on eight (if we were cartoon characters) or four (if we were lobsters) or even two (if we were dolphins).”    
- 
-      Charles Petzold,  Code: The Hidden Language of Computer Hardware and Software
-
-4:       “Programming in machine code is like eating with a toothpick.”    
- 
-      Charles Petzold,  Code: The Hidden Language of Computer Hardware and Software
-
-1:       “The belly is an ungrateful wretch, it never remembers past favors, it always wants more tomorrow.”    
- 
-      Aleksandr I. Solzhenitsyn,  One Day in the Life of Ivan Denisovich
-
-2:       “Can a man who's warm understand one who's freezing?”    
- 
-      Aleksandr Solzhenitsyn,  One Day in the Life of Ivan Denisovich
-
-3:       “In our village, folks say God crumbles up the old moon into stars.”    
- 
-      Alexander Solzhenitsyn,  One Day in the Life of Ivan Denisovich
-
-4:       “You should rejoice that you're in prison. Here you have time to think about your soul.”    
- 
-      Aleksandr I. Solzhenitsyn,  One Day in the Life of Ivan Denisovich
-
-1:       “There had been times when he knew, somewhere in him, that he would get used to it, whatever it was, because he had learnt that some hard things became softer after a very little while.”    
- 
-      Nick Hornby,  About a Boy
-
-2:       “This thing about looking for someone less different... It only really worked, he realized, if you were convinced that being you wasn't so bad in the first place.”    
- 
-      Nick Hornby,  About a Boy
-
-3:       “Loving people, and allowing yourself to be loved, was only worth the risk if the odds were in your favor, but they quite clearly weren't. There were about seventy-nine squillion people in the world, and if you were very lucky, you would end up being loved by fifteen or twenty of them. So how smart did you have to be to work out that it just wasn't worth the risk?”    
- 
-      Nick Hornby,  About a Boy
-
-4:       “The point is you keep going. You want to. So all the things that make you want to are the point.”    
- 
-      Nick Hornby,  About a Boy
-
-1:       “Happiness [is] only real when shared”    
- 
-      Jon Krakauer,  Into the Wild
-
-2:       “It's not always necessary to be strong, but to feel strong.”    
- 
-      Jon Krakauer,  Into the Wild
-
-3:       “make a radical change in your lifestyle and begin to boldly do things which you may previously never have thought of doing, or been too hesitant to attempt. So many people live within unhappy circumstances and yet will not take the initiative to change their situation because they are conditioned to a life of security, conformity, and conservation, all of which may appear to give one peace of mind, but in reality nothing is more damaging to the adventurous spirit within a man than a secure future. The very basic core of a man's living spirit is his passion for adventure. The joy of life comes from our encounters with new experiences, and hence there is no greater joy than to have an endlessly changing horizon, for each day to have a new and different sun. If you want to get more out of life, you must lose your inclination for monotonous security and adopt a helter-skelter style of life that will at first appear to you to be crazy. But once you become accustomed to such a life you will see its full meaning and its incredible beauty.”    
- 
-      Jon Krakauer,  Into the Wild
+      Albert Camus,  The Fall
 
