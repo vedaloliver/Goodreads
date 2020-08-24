@@ -1,17 +1,21 @@
 from bs4 import BeautifulSoup
+import grequests
 import requests
+import urllib
 import sqlite3
 import datetime
+import re
 
 # sql initialise
 conn = sqlite3.connect('data_init.sqlite')
 cur = conn.cursor()
-# generate tables
 
+# generate tables
 cur.executescript('''
 DROP TABLE IF EXISTS Author;
 DROP TABLE IF EXISTS Title;
 DROP TABLE IF EXISTS Date_Added;
+DROP TABLE IF EXISTS Quote_Link;
 
 CREATE TABLE Author (
     id  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
@@ -22,11 +26,17 @@ CREATE TABLE Title (
     name TEXT  UNIQUE,
     author_id  INTEGER,
     date_added_id INTEGER,
+    quote_link_id INTEGER,
     length INTEGER, avg_rating INTEGER,link TEXT UNIQUE, isbn INTEGER
 );
 CREATE TABLE Date_Added (
     id  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
     Date   TEXT UNIQUE
+);
+
+CREATE TABLE quote_link (
+    id  INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+    quote_link   TEXT UNIQUE
 );
 ''')
 
@@ -35,7 +45,31 @@ with open('C:\\Users\\Oliver\\desktop\\code_files\\coursera\\Capstone\\02_Explor
     filez = website.read()
     soup = BeautifulSoup(filez, 'lxml')
 
-#isbn = ''
+links = []
+
+def quote_extract(links):
+    #initalise grequests to use 
+    reqs = (grequests.get(link) for link in links)
+    resp = grequests.imap(reqs, grequests.Pool(1))
+    #opens up grequests and finds tags within each consecutive webpage for the quote hyperlink
+    # pulls the quote hyperlink to produce
+    for i in resp:
+        soups = BeautifulSoup(i.text, 'lxml')
+        for j in  soups.find_all('a',class_='actionLink', attrs={'href': re.compile("^/work/quotes")}):
+            quotes = (j.get('href'))
+            print(quotes)
+
+            #independent push to sql as it wasnt working with everything else
+            cur.execute('''INSERT or REPLACE INTO Quote_link (quote_link)
+                VALUES ( ? )''', (quotes, ))
+            cur.execute('SELECT id FROM Quote_link WHERE quote_link = ?', (quotes, ))
+            quote_link_id = cur.fetchone()[0]
+
+            conn.commit()
+
+
+#master scraping element - neeeds to be put into a function
+# pulls all the needed data 
 for book in soup.find_all('tr', class_='bookalike review'):
     name = book.find('td', class_='field title').div.a.text.lstrip().rstrip().strip('\n')
     author = book.find('td', class_='field author').div.a.text.lstrip().rstrip().strip('\n')
@@ -45,6 +79,9 @@ for book in soup.find_all('tr', class_='bookalike review'):
     date_read = book.find('td', class_='field date_read').div.div.text.replace('[edit]', '').lstrip().rstrip().strip('\n')
     avg_rating = book.find('td', class_='field avg_rating').div.text.lstrip().rstrip().replace(' ', '').strip('\n')
     link = book.find('td', class_='field title').div.a.get('href')
+    links.append(book.find('td', class_='field title').div.a.get('href'))
+    quotes = 'null'
+    # for consistency's sake if no isbn is present, a message is produced 
     if len(book.find('td', class_='field isbn').div.text.lstrip().rstrip()) in range(6, 13):
         isbn = book.find('td', class_='field isbn').div.text.lstrip().rstrip()
     else:
@@ -62,8 +99,11 @@ for book in soup.find_all('tr', class_='bookalike review'):
     date_added_id = cur.fetchone()[0]
 
     cur.execute('''INSERT OR IGNORE INTO Title
-        (name, author_id,date_added_id, length, avg_rating, link, isbn) 
-        VALUES ( ?, ?,? , ?, ?, ?, ?)''',
-                (name, author_id, date_added_id, page_no, avg_rating, link, isbn))
+        (name, author_id,date_added_id,quote_link_id, length, avg_rating, link, isbn) 
+        VALUES ( ?, ?,? , ?, ?, ?, ?, ?)''',
+                (name, author_id, date_added_id,quote_link_id, page_no, avg_rating, link, isbn))
 
     conn.commit()
+
+
+quote_extract(links)
