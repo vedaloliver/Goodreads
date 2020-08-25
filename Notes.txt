@@ -1,3 +1,43 @@
+2508
+
+- a good day... seem to have completely finished off the push to sql file
+-- input will ask for a id and it will return and upload all of the data needed as before
+-- also will scrape from the website itself and not a html file with a decent amount of speed/efficiency
+-- also now pulling the year of publication which is useful
+
+to do:
+
+-- boolean which asks if you want to see your stats, or to push your quotes to an anki package (started on this but gave up cos hungry)
+-- loads of stats, look below for cues
+-- figuring out how to run this from bash
+-- tidying up
+-- figuring out an issue with pushing to git
+-- cleaning up the filespace
+-- writing a form of readme
+
+
+
+
+2408
+- Today i managed to sucessfully change the code so it pulls all of the quotes sucessfully from each file.
+-- it did this relatively quickly and i didn't need grequests
+
+Nearly at the end... to finish off you need to:
+-set a form of input request which asks the inputter for their id to pull their peronsliased reading list (done)
+-- could be possible to only ask for their id, as with it you can sub your id with theirs and keep the format of the list (done)
+-add year published (done)
+-- will include this in statistical analysis for the average years of the books you have read
+
+-- boolean which asks if you want to see your stats, or to push your quotes to an anki package
+
+- stats
+-- get stats for the year of publication
+-- potentially stats for year against rating???
+-- no of authors with >1 read book
+--- average of each author
+--- avg page count of each author
+-- how many books you read a year
+--- what can possibly be done is to see on average how many books you have read a week, asking for a parameter when to start the timeline
 
 1808
 
