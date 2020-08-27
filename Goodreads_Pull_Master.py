@@ -13,6 +13,11 @@ page_no_total = 0
 page_no_list = []
 list_year = []
 year_freq = {}
+# for quotes
+goodreads_base = 'https://www.goodreads.com'
+links = []
+complete_quotes = []
+
 
 # sql initalise
 conn = sqlite3.connect('data_init.sqlite')
@@ -64,18 +69,58 @@ def page_stats(datas):
 
 
 def author_stats(data):
-    pass
+    print('ketchbutt')
     # apppend authors to a list and count in a dict instances of them appearing
     # it will show a bar graph of your most popular authors
     # for each author add their page count to said dictionary/tuple and return a list of author ranking by page averages
 
+def published_year_stats():
+    
 
-# pulls the table data for quote scraping
-goodreads_base = 'https://www.goodreads.com'
-links = []
-complete_quotes = []
+    data_year = cur.execute('''select title.name, title.length, Date_published.year, Author.name
+                            from title 
+                            join Date_published on title.date_published_id=Date_Published.id
+                            join Author on Title.author_id=Author.id
+                            ORDER BY Date_Published.Year DESC, title.length ,Author.name, title.name; ''')
+
+    def century():
+        list_published_year_freq = []
+        published_year_freq = {}
+        for i in data_year:
+            list_published_year_freq.append((i[2][0:2]))
+
+        for item in list_published_year_freq:
+            if item in published_year_freq:
+                published_year_freq[item] += 1
+            else:
+                published_year_freq[item] = 1
+        
+        print ('Here are the publication dates of the books you have read, sorted by century')
+        for i in sorted(published_year_freq, key=published_year_freq.get, reverse=True):
+            print(i, ": ", published_year_freq[i])
+
+    def oldest():
+        year = []
+        for i in data_year:
+            if i[2] != str(''):
+                year.append((i[0],i[3],i[2]))
+        
+        author_reversed_new = (' '.join(reversed(year[0][1].split(','))))
+        author_reversed_old = (' '.join(reversed(year[-1][1].split(','))))
+
+        print ('\n The newest book you have read is "', year[0][0], '", Written by', author_reversed_new, 'in the year', year[0][2],'.\n')
+        print ('\n While the oldest book is "', year[-1][0], '", Written by', author_reversed_old, 'in the year', year[-1][2],'.\n ')
+    
 
 
+    # ok so for some weird reason if you include both of these things it pulls up an error .
+    ## im really confused as to why this is the case
+    ### you can choose to hide this with a boolean to decide what to show but that's kinda lazy 
+    century()
+    #oldest()
+
+
+        
 def quote_puller(data2):
     # gathers data from sql
     data2 = cur.execute('''select * FROM quote_link ''')
@@ -85,7 +130,7 @@ def quote_puller(data2):
 
     quote_files = open(r"quotes.txt", "w", encoding='utf-8')
     count = 0
-    print("Please Wait...")
+    print("\n Generating quotes, please Wait...\n ")
 
     def writer():
         global complete_quotes
@@ -140,21 +185,39 @@ def quote_puller(data2):
             my_deck.add_note(my_note)
 
         genanki.Package(my_deck).write_to_file('Goodreads.apkg')
-        print('Conversion finished. You will find Goodreads.apkg in this directory.')
+        print('\n Conversion finished. You will find Goodreads.apkg in this directory. \n')
 
     writer()
     anki()
 
-print('Do you want to see your reading statistics, or do you want to extract the most popular quotes from each book?')
 
-### come back to this 
-# while True:
-#     Choice = ''
-#     if Choice == (input('Statistics = 1, Quotes = 2:')) == 1 or 2:
-#         break
-#     else:
-#         print("invalid choice")
+def choice():
+    print('Do you want to see your reading statistics, or do you want to extract the most popular quotes from each book?')
+    while True:
+        print('\nStatistics = 1\n\nQuotes = 2:')
+        choice = ((input()))
+        if choice == str(1):
+            print ('What kind of statistics would you like to view?:')
+            while True:
+                print('\nPage = 1\nAuthor = 2:\nPublication Year = 3\n')
+                stat_choice = (input())
+                if stat_choice == str(1):
+                    page_stats(data)
+                    break
+                elif stat_choice == str(2):
+                    author_stats(data)
+                    break
+                elif stat_choice == str(3):
+                    published_year_stats(data)
+                    break
+                else:
+                    print ("Invalid. Please try again.")
+            break     
+        elif choice == str(2):
+            quote_puller(data)
+            break
+        else:
+            print ("Invalid. Please try again.")
 
-
-page_stats(data)
-quote_puller(data)
+#choice()
+published_year_stats()
