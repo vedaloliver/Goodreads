@@ -75,6 +75,10 @@ def author_stats(data):
     # for each author add their page count to said dictionary/tuple and return a list of author ranking by page averages
 
 def published_year_stats():
+
+
+    ## you need to change a parameter if no year is provided to something along the lines of 'no year set'
+    ## a weird error pulls if you include both functions at the same time
     
 
     data_year = cur.execute('''select title.name, title.length, Date_published.year, Author.name

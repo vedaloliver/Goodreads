@@ -113,7 +113,10 @@ def scrape():
             if len(book.find('td', class_='field isbn').div.text.lstrip().rstrip()) in range(6, 13):
                 isbn = book.find('td', class_='field isbn').div.text.lstrip().rstrip()
             else:
-                isbn = 'NULL'
+                isbn = 'No Data'
+            
+            if date_published1 == '':
+                date_published1 = 'No Data'
             book_n += 1 
             
             #print (book_n)

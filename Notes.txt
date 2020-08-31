@@ -1,3 +1,16 @@
+2708
+
+--- have generated new sql table to cater for the year parameter
+--- have also contructed a boolean input cascade asking what they want to select
+
+todo 
+
+--- author stats
+--- maybe more page stats, against author
+--- clean up
+--- write readme
+--- if they dont want to put onto anki then maybe they should instead write it to a text file???
+
 2508
 
 - a good day... seem to have completely finished off the push to sql file
@@ -7,12 +20,12 @@
 
 to do:
 
--- boolean which asks if you want to see your stats, or to push your quotes to an anki package (started on this but gave up cos hungry)
+-- (done) boolean which asks if you want to see your stats, or to push your quotes to an anki package (started on this but gave up cos hungry)
 -- loads of stats, look below for cues
--- figuring out how to run this from bash
+-- (gettign ther) figuring out how to run this from bash
 -- tidying up
 -- figuring out an issue with pushing to git
--- cleaning up the filespace
+-- (done)cleaning up the filespace
 -- writing a form of readme
 
 
