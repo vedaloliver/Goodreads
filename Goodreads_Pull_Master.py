@@ -16,7 +16,8 @@ year_freq = {}
 # for quotes
 goodreads_base = 'https://www.goodreads.com'
 links = []
-complete_quotes = []
+complete_quotes_anki = []
+complete_quotes_txt = []
 
 
 # sql initalise
@@ -26,8 +27,6 @@ cur = conn.cursor()
 data = cur.execute('''select title.name, title.length, Date_Added.Date  
 from title join Date_Added on title.date_added_id=date_added.id 
 ORDER BY Date_Added.Date DESC, title.length , title.name  ''')
-
-
 
 
 def page_stats(datas):
@@ -56,7 +55,7 @@ def page_stats(datas):
 
     def mean(books, page_number):
         avg = round(page_number/books, 1)
-        print('\n Given the data, on average each book will be',
+        print('\nGiven the data, on average each book will be',
               avg, 'pages long.\n')
 
         # add mean for each year
@@ -65,21 +64,50 @@ def page_stats(datas):
         std_dev = round(statistics.stdev(page_number), 2)
         print('The standard deviation of the sample is: ', std_dev)
 
-    return(mean(lens, page_no_total), std_deviation(page_no_list))
 
+    
 
-def author_stats(data):
+    return(mean(lens, page_no_total), std_deviation(page_no_list),end_choices() )
+
+    
+
+def author_stats():
     print('ketchbutt')
-    # apppend authors to a list and count in a dict instances of them appearing
-    # it will show a bar graph of your most popular authors
-    # for each author add their page count to said dictionary/tuple and return a list of author ranking by page averages
+
+    data_auth = cur.execute('''select title.name, title.length, Author.name
+                            from title 
+                            join Author on Title.author_id=Author.id
+                            ORDER BY Author.name DESC, title.length, title.name; ''')
+
+    # do author average rating
+  
+    def top_10():
+        count = 0
+        list_author_freq = []
+        dict_author_freq = {}
+        for i in data_auth:
+            list_author_freq.append(' '.join(reversed(i[2].split(','))))
+
+
+        for item in list_author_freq:
+            if item in dict_author_freq:
+                dict_author_freq[item] += 1
+            else:
+                dict_author_freq[item] = 1
+
+        print ('\nBelow are the top 10 most read books by each author:\n ')
+        count = 0
+        for i in sorted(dict_author_freq, key=dict_author_freq.get, reverse=True):
+            print(i, ": ", dict_author_freq[i])
+            count += 1
+            if count == 10:
+                break
+    top_10()
+
+
+    #return (end_choices())
 
 def published_year_stats():
-
-
-    ## you need to change a parameter if no year is provided to something along the lines of 'no year set'
-    ## a weird error pulls if you include both functions at the same time
-    
 
     data_year = cur.execute('''select title.name, title.length, Date_published.year, Author.name
                             from title 
@@ -99,11 +127,11 @@ def published_year_stats():
             else:
                 published_year_freq[item] = 1
         
-        print ('Here are the publication dates of the books you have read, sorted by century')
+        print ('\nBelow are the publication dates of the books read, sorted by century:\n ')
         for i in sorted(published_year_freq, key=published_year_freq.get, reverse=True):
             print(i, ": ", published_year_freq[i])
 
-    def oldest():
+    def oldest_youngest():
         year = []
         for i in data_year:
             if i[2] != str(''):
@@ -114,18 +142,21 @@ def published_year_stats():
 
         print ('\n The newest book you have read is "', year[0][0], '", Written by', author_reversed_new, 'in the year', year[0][2],'.\n')
         print ('\n While the oldest book is "', year[-1][0], '", Written by', author_reversed_old, 'in the year', year[-1][2],'.\n ')
+
     
 
 
     # ok so for some weird reason if you include both of these things it pulls up an error .
-    ## im really confused as to why this is the case
+    ## im really confused Aas to why this is the case
     ### you can choose to hide this with a boolean to decide what to show but that's kinda lazy 
     century()
-    #oldest()
+    #oldest_youngest()
+    end_choices()
+
 
 
         
-def quote_puller(data2):
+def quote_puller():
     # gathers data from sql
     data2 = cur.execute('''select * FROM quote_link ''')
     # make a list of the Links
@@ -134,11 +165,23 @@ def quote_puller(data2):
 
     quote_files = open(r"quotes.txt", "w", encoding='utf-8')
     count = 0
-    print("\n Generating quotes, please Wait...\n ")
+    print("\nGenerating quotes, please Wait...\n ")
 
     def writer():
         global complete_quotes
         prog_count = 0
+        while True:
+            print ('How many quotes do you want to extract?\n ')
+            quote_n = (input()) 
+            try:
+                int_quote_n = int(quote_n)
+                print ('Getting', int_quote_n, 'quotes.\n')
+                break
+            except ValueError:
+                print('Invalid input, please try again.\n ')
+
+
+
         for i in range(len(links)):
             lastnumber = range(len(links))[-1]
             progress = (str(round(((i+1)/lastnumber)*100, 1)))
@@ -152,18 +195,30 @@ def quote_puller(data2):
                 print("Currently at %", progress, "completion.")
                 prog_count = 0
             # gathers the needed quotes
+            
             for quotez in soup.find_all('div', class_='quote'):
                 quote = quotez.find('div', class_='quoteText').text
                 count += 1
-                if count == 5:
+                if count == int_quote_n:
                     break
                 # next two lines 1. formats for readability and writes to file
-                quote_format = quote.replace('\n', '').replace(
+                quote_format_anki = quote.replace('\n', '').replace(
                     '”    ―', '”    <br><br><br>    -')+'\n\n'
-                complete_quotes.append(quote_format)
+                quote_format_txt = quote.replace('\n', '').replace(
+                    '”    ―', '”  \n\n\n      -')+'\n\n\n'
+                complete_quotes_anki.append(quote_format_anki)
+                complete_quotes_txt.append(quote_format_txt)
+
+    #a Appends the quotes to a simple text file.
+    def txt_file():
+        quote_txt = open('Quotes.txt', 'w')
+        for i in complete_quotes_txt:
+            quote_txt.write(i)
+        print('\n Conversion finished. You will find Quotes.txt file in this directory. \n')
+    
     # Takes the scraped quotes and converts them to a format to upload flashcard application anki
     def anki():
-        global complete_quotes
+        global complete_quotes_anki
         my_model = genanki.Model(
             1607392319,
             'Simple Model',
@@ -180,25 +235,53 @@ def quote_puller(data2):
 
         my_deck = genanki.Deck(
             2059400110,
-            'Goodreads Quotes Iona')
+            'Goodreads Quotes')
 
-        for i in complete_quotes:
+        for i in complete_quotes_anki:
             my_note = genanki.Note(
                 model=my_model,
                 fields=[str(i), ' '])
             my_deck.add_note(my_note)
 
         genanki.Package(my_deck).write_to_file('Goodreads.apkg')
-        print('\n Conversion finished. You will find Goodreads.apkg in this directory. \n')
+        print('\nConversion finished. You will find Goodreads.apkg in this directory. \n')
 
-    writer()
-    anki()
 
+    def file_choice(): 
+        while True:
+            print('\nDo you want to export the notes to a text file, or to an Anki package?\n\nAnki package (.apkg) = 1 Text File (.txt) = 2')
+            file_choice = ((input()))
+            if file_choice == str(1):
+                print ('Exporting to .apkg. Please wait...')
+                anki()
+                break
+            elif file_choice == str(2):
+                print ('Exporting to .txt. Please wait...')
+                txt_file()
+                break
+            else:
+               print ("Invalid input. Please try again.")
+
+    return (writer(),file_choice())
+    #return (writer(), anki(), end_choices())
+
+def end_choices():
+        while True:
+            print('\n\nMain menu = 1, Exit program = 2')
+            end_choice = ((input()))
+            if end_choice == str(1):
+                choice()
+            elif end_choice == str(2):
+                print ('Program terminated.')
+                break
+            else:
+               print ("Invalid input. Please try again.")
 
 def choice():
-    print('Do you want to see your reading statistics, or do you want to extract the most popular quotes from each book?')
+    choice = 0
+    print('Welcome!\nDo you want to see your reading statistics, or do you want to extract the most popular quotes from each book?')
     while True:
-        print('\nStatistics = 1\n\nQuotes = 2:')
+        print('\nStatistics = 1\n\nQuotes = 2\n\nExit Program = 3:')
         choice = ((input()))
         if choice == str(1):
             print ('What kind of statistics would you like to view?:')
@@ -220,8 +303,13 @@ def choice():
         elif choice == str(2):
             quote_puller(data)
             break
+        elif choice ==str(3):
+            print ('\nProgram terminated.\n')
+            break
         else:
             print ("Invalid. Please try again.")
 
 #choice()
-published_year_stats()
+#published_year_stats()
+#author_stats()
+quote_puller()  
