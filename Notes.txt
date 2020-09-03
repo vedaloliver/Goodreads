@@ -1,3 +1,16 @@
+3108
+
+- Very close to the end 
+-- need to figure out the algorithm for adding the year rating freqeuncy to a nested dict 
+-- when this is done you can construct some form of trend line to display
+
+-- when that's done make a choice picker for rating
+
+-- tidy up the code and i think you might actually be finished with it
+
+
+
+
 2708
 
 --- have generated new sql table to cater for the year parameter

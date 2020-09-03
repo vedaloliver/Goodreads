@@ -1,11 +1,10 @@
 from bs4 import BeautifulSoup
 import sqlite3
+import math
 import statistics
 import grequests
 import requests
 import re
-import progressbar
-import time
 import genanki
 
 lens = 0
@@ -24,18 +23,20 @@ complete_quotes_txt = []
 conn = sqlite3.connect('data_init.sqlite')
 cur = conn.cursor()
 # obtains the tables for statistical analysis
-data = cur.execute('''select title.name, title.length, Date_Added.Date  
-from title join Date_Added on title.date_added_id=date_added.id 
+data = cur.execute('''select Title.name, Title.length, Date_Added.Date  
+from Title join Date_Added on title.date_added_id=date_added.id 
 ORDER BY Date_Added.Date DESC, title.length , title.name  ''')
 
 
-def page_stats(datas):
+def page_stats():
+    # Provides simple stats based on averages of pages read in each book
     global lens
     global page_no_total
     global year_freq
     global page_no_list
+
+
     for i in data:
-        #print (i[0],',', i[1],',',i[2])
         list_year.append((i[2].split('-'))[0])
         page_no_total += int(i[1])
         page_no_list.append(int(i[1]))
@@ -47,34 +48,40 @@ def page_stats(datas):
         else:
             year_freq[item] = 1
 
-    print('You have read', lens, 'books, which totals', page_no_total, 'pages.\n')
-    print('Below is a list of your reading over the years: \n')
+    def books_lens_total():
+        print('You have read', lens, 'books, which totals', page_no_total, 'pages.\n')
+        print('Below is a list of your reading over the years: \n')
 
-    for i in sorted(year_freq, key=year_freq.get, reverse=True):
-        print(i, ": ", year_freq[i])
+        for i in sorted(year_freq, key=year_freq.get, reverse=True):
+            print(i, ": ", year_freq[i])
 
     def mean(books, page_number):
         avg = round(page_number/books, 1)
         print('\nGiven the data, on average each book will be',
               avg, 'pages long.\n')
 
-        # add mean for each year
 
     def std_deviation(page_number):
         std_dev = round(statistics.stdev(page_number), 2)
         print('The standard deviation of the sample is: ', std_dev)
 
+    ### come back to this as you have to change things around 
 
+    # def biggest_smallest():
+    #     # returns the biggest and smallest book read    
+    #     author_reversed_new = (' '.join(reversed(year[0][1].split(','))))
+    #     author_reversed_old = (' '.join(reversed(year[-1][1].split(','))))
+
+    #     print ('\nThe biggest book you have read is"', max(page_no_list), '", Written by', author_reversed_new, 'in the year', year[0][2],',')
+    #     print ('While the smallest book is"', min(page_no_list), '", Written by', author_reversed_old, 'in the year', year[-1][2],'.\n ')
     
 
-    return(mean(lens, page_no_total), std_deviation(page_no_list),end_choices() )
+    return(books_lens_total(),mean(lens, page_no_total), std_deviation(page_no_list),end_choices() )
 
     
-
 def author_stats():
-    print('ketchbutt')
-
-    data_auth = cur.execute('''select title.name, title.length, Author.name
+    # Simple in this current verison - only produces the authors with the most read books by you
+    data_auth = cur.execute('''select Title.name, title.length, Author.name
                             from title 
                             join Author on Title.author_id=Author.id
                             ORDER BY Author.name DESC, title.length, title.name; ''')
@@ -109,18 +116,24 @@ def author_stats():
 
 def published_year_stats():
 
-    data_year = cur.execute('''select title.name, title.length, Date_published.year, Author.name
+    data_year = cur.execute('''select title.name, title.length, Date_published.year,title.avg_rating, Author.name
                             from title 
                             join Date_published on title.date_published_id=Date_Published.id
                             join Author on Title.author_id=Author.id
-                            ORDER BY Date_Published.Year DESC, title.length ,Author.name, title.name; ''')
+                            ORDER BY Date_Published.Year DESC, title.length,title.avg_rating,Author.name, title.name; ''')
+    year = []
+    list_published_year_freq = []
 
+    # loop initiates outside other functions as i learn that a loop cannot be run twice in the same function
+    for i in data_year:
+        if i[2] != str('No Data'):
+            year.append((i[0],i[4],i[2]))
+        list_published_year_freq.append((i[2][0:2]))
+        
+    
     def century():
-        list_published_year_freq = []
+        # returns a list of books read, 
         published_year_freq = {}
-        for i in data_year:
-            list_published_year_freq.append((i[2][0:2]))
-
         for item in list_published_year_freq:
             if item in published_year_freq:
                 published_year_freq[item] += 1
@@ -130,32 +143,41 @@ def published_year_stats():
         print ('\nBelow are the publication dates of the books read, sorted by century:\n ')
         for i in sorted(published_year_freq, key=published_year_freq.get, reverse=True):
             print(i, ": ", published_year_freq[i])
+    
 
     def oldest_youngest():
-        year = []
-        for i in data_year:
-            if i[2] != str(''):
-                year.append((i[0],i[3],i[2]))
-        
+        # returns the newest and oldest book read    
         author_reversed_new = (' '.join(reversed(year[0][1].split(','))))
         author_reversed_old = (' '.join(reversed(year[-1][1].split(','))))
 
-        print ('\n The newest book you have read is "', year[0][0], '", Written by', author_reversed_new, 'in the year', year[0][2],'.\n')
-        print ('\n While the oldest book is "', year[-1][0], '", Written by', author_reversed_old, 'in the year', year[-1][2],'.\n ')
+        print ('\nThe newest book you have read is"', year[0][0], '", Written by', author_reversed_new, 'in the year', year[0][2],',')
+        print ('While the oldest book is"', year[-1][0], '", Written by', author_reversed_old, 'in the year', year[-1][2],'.\n ')
+
+    def decade_rating():
+        # Haven't been cracked yet - cannt work out the algorithm which adds the decade and adds a rating to a list within that corresponding dictioanry value 
+
+        rating = []
+        dict_decade_freq = {}
+    
+        lists = []
+        for i in (data_year):
+            
+            if i[2] != 'No Data':
+                decade = (str(round((int(i[2])/10))*10))
+                print (decade)
+
+                dict_decade_freq.update({decade :'x'})
+                
+            else:
+                dict_decade_freq.update({i[2]:'x'})
+        
+        print (dict_decade_freq)
 
     
-
-
-    # ok so for some weird reason if you include both of these things it pulls up an error .
-    ## im really confused Aas to why this is the case
-    ### you can choose to hide this with a boolean to decide what to show but that's kinda lazy 
-    century()
-    #oldest_youngest()
-    end_choices()
-
-
-
-        
+            
+    return (century(), oldest_youngest(),end_choices())
+    #decade_rating()
+  
 def quote_puller():
     # gathers data from sql
     data2 = cur.execute('''select * FROM quote_link ''')
@@ -179,8 +201,6 @@ def quote_puller():
                 break
             except ValueError:
                 print('Invalid input, please try again.\n ')
-
-
 
         for i in range(len(links)):
             lastnumber = range(len(links))[-1]
@@ -263,7 +283,6 @@ def quote_puller():
                print ("Invalid input. Please try again.")
 
     return (writer(),file_choice())
-    #return (writer(), anki(), end_choices())
 
 def end_choices():
         while True:
@@ -312,4 +331,5 @@ def choice():
 #choice()
 #published_year_stats()
 #author_stats()
-quote_puller()  
+#quote_puller() 
+page_stats() 
