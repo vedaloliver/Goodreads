@@ -7,26 +7,17 @@ import requests
 import re
 import genanki
 
+#global parameters
 lens = 0
 page_no_total = 0
 page_no_list = []
 list_year = []
 year_freq = {}
-# for quotes
-goodreads_base = 'https://www.goodreads.com'
-links = []
-complete_quotes_anki = []
-complete_quotes_txt = []
 
 
-# sql initalise
+# SQL initialise
 conn = sqlite3.connect('data_init.sqlite')
 cur = conn.cursor()
-# obtains the tables for statistical analysis
-data = cur.execute('''select Title.name, Title.length, Date_Added.Date  
-from Title join Date_Added on title.date_added_id=date_added.id 
-ORDER BY Date_Added.Date DESC, title.length , title.name  ''')
-
 
 def page_stats():
     # Provides simple stats based on averages of pages read in each book
@@ -35,6 +26,9 @@ def page_stats():
     global year_freq
     global page_no_list
 
+    data = cur.execute('''select Title.name, Title.length, Date_Added.Date  
+    from Title join Date_Added on title.date_added_id=date_added.id 
+    ORDER BY Date_Added.Date DESC, title.length , title.name  ''')
 
     for i in data:
         list_year.append((i[2].split('-'))[0])
@@ -179,6 +173,11 @@ def published_year_stats():
     #decade_rating()
   
 def quote_puller():
+
+    goodreads_base = 'https://www.goodreads.com'
+    links = []
+    complete_quotes_anki = []
+    complete_quotes_txt = []
     # gathers data from sql
     data2 = cur.execute('''select * FROM quote_link ''')
     # make a list of the Links
@@ -190,10 +189,9 @@ def quote_puller():
     print("\nGenerating quotes, please Wait...\n ")
 
     def writer():
-        global complete_quotes
         prog_count = 0
         while True:
-            print ('How many quotes do you want to extract?\n ')
+            print ('How many quotes do you want to extract from each book?\n ')
             quote_n = (input()) 
             try:
                 int_quote_n = int(quote_n)
@@ -219,7 +217,7 @@ def quote_puller():
             for quotez in soup.find_all('div', class_='quote'):
                 quote = quotez.find('div', class_='quoteText').text
                 count += 1
-                if count == int_quote_n:
+                if count == int_quote_n+1:
                     break
                 # next two lines 1. formats for readability and writes to file
                 quote_format_anki = quote.replace('\n', '').replace(
@@ -228,13 +226,13 @@ def quote_puller():
                     '”    ―', '”  \n\n\n      -')+'\n\n\n'
                 complete_quotes_anki.append(quote_format_anki)
                 complete_quotes_txt.append(quote_format_txt)
-
+    
     #a Appends the quotes to a simple text file.
     def txt_file():
         quote_txt = open('Quotes.txt', 'w')
         for i in complete_quotes_txt:
             quote_txt.write(i)
-        print('\n Conversion finished. You will find Quotes.txt file in this directory. \n')
+        print('\nConversion finished. You will find Quotes.txt file in this directory. \n')
     
     # Takes the scraped quotes and converts them to a format to upload flashcard application anki
     def anki():
@@ -308,19 +306,19 @@ def choice():
                 print('\nPage = 1\nAuthor = 2:\nPublication Year = 3\n')
                 stat_choice = (input())
                 if stat_choice == str(1):
-                    page_stats(data)
+                    page_stats()
                     break
                 elif stat_choice == str(2):
-                    author_stats(data)
+                    author_stats()
                     break
                 elif stat_choice == str(3):
-                    published_year_stats(data)
+                    published_year_stats()
                     break
                 else:
                     print ("Invalid. Please try again.")
             break     
         elif choice == str(2):
-            quote_puller(data)
+            quote_puller()
             break
         elif choice ==str(3):
             print ('\nProgram terminated.\n')
@@ -328,8 +326,5 @@ def choice():
         else:
             print ("Invalid. Please try again.")
 
-#choice()
-#published_year_stats()
-#author_stats()
-#quote_puller() 
-page_stats() 
+choice()
+
