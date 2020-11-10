@@ -1,5 +1,16 @@
 
-This was created to both test and display a number of competencies i have been learning, such as:
+# Goodreads Wrangler
+
+Goodreads is popular platform for fans of literature, allowing users to search for books, leave and read reviews, and create lists. It also acts as a light social media platform, allowing the user to add other users and share activity.
+
+The website was bought in Amazon by 2013, and has not received an update since the acquisition; One can see the site appears to be dated, which lacks in functionality. 
+My frustration at the limiting access to many features gave me motivation to develop a small application to get the features i wanted, while also building my skill and making me more comfortable with app development.
+
+
+________________________________________________________________________________________________
+
+
+I have uploaded this project in particular to Github to demonstrate the development of competencies, such as:
 - Use of HTML parsing/scraping via packages such as Beautiful Soup or Requests
 - Database construction and management using SQLite
 - Constructing and writing a multi file project, allowing python to read and write to/from external sources
