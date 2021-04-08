@@ -52,3 +52,26 @@ at the top of the page. Provided is an example of the authors ID:
 
 Thank you!
 
+____________________________________________________________________________________________________________________________________________
+ April 2021 update
+ 
+Since developing this application i have since got into uni. I am now looking at employment and building my portfolio, and this application could be further developed into something which i could include. I'm writing a todolist here for reference:
+
+Todo:
+
+1. Make statistics much more robust, it's currently very weak
+2. Create some form of Wallpaper retreival system which retreives wallpapers for the user's set resolution. Using either parser or hopefully an API
+3. Use this so the user can add the quotes onto wallpapers 
+4. develop a front end framework for all of this to make it look nice/ figure out pyui to do something similar to that guy's project about passports
+
+
+Todo for stats:
+1. add average page count by year
+2. biggest and smallest book
+3. Author stats by average rating
+
+Bug list:
+
+1. Pull data is in a choice loop which you have to repeat x number of times before backing out
+2. Nothing is commented
+3. in the parse file the parsing data is disgusting
