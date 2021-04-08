@@ -14,7 +14,6 @@ book_n = 0
 
 # SQL table initaliser
 def SQL_init():
-    # generates database objects in SQLite
     cur.executescript('''
     DROP TABLE IF EXISTS Author;
     DROP TABLE IF EXISTS Title;
@@ -89,11 +88,13 @@ def scrape():
     while True:
         try:
             user_id = int(input('Enter your id:'))
-            print('\nThank you. ')
+            print('\nThank you. Setting up database...')
             break
         except ValueError:
             print("Invalid id. Try again")
 
+    #parsing function
+    # page count should not be static, and should be retreivable 
     page = range(1, 5)
     for i in page:
         url = requests.get('https://www.goodreads.com/review/list/' + str(user_id) + '?order=d&page=' +
@@ -121,7 +122,7 @@ def scrape():
             links.append("https://www.goodreads.com/" +
                          book.find('td', class_='field title').div.a.get('href'))
             quotes = 'null'
-            # for consistency's sake if no isbn is present, a message is produced
+            # for consistency's sake if no isbn is present, N/A is returned
             if len(book.find('td', class_='field isbn').div.text.lstrip().rstrip()) in range(6, 13):
                 isbn = book.find(
                     'td', class_='field isbn').div.text.lstrip().rstrip()
@@ -139,6 +140,8 @@ def scrape():
     print('\n ...\n')
 
 # Separate function for withdrawing the book's quote links
+# do i actually need this? its reparsing in the other file
+# why is the commiting to sql in the quote extraction function?
 def quote_extract():
     prog_count = 0
     ticker = 0

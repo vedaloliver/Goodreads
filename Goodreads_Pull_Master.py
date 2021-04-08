@@ -8,24 +8,24 @@ import re
 import genanki
 
 #global parameters
-lens = 0
-page_no_total = 0
-page_no_list = []
-list_year = []
-year_freq = {}
+# lens = 0
+# list_year = []
+# year_freq = {}
 
 
 # SQL initialise
 conn = sqlite3.connect('data_init.sqlite')
 cur = conn.cursor()
 
-
-def page_stats():
     # Provides simple stats based on averages of pages read in each book
-    global lens
-    global page_no_total
-    global year_freq
-    global page_no_list
+def general_stats():
+    pass
+def page_stats():
+    lens = 0
+    year_freq = {}
+    page_no_total = 0
+    page_no_list = []
+    list_year = []
 
     data = cur.execute('''select Title.name, Title.length, Date_Added.Date  
     from Title join Date_Added on title.date_added_id=date_added.id 
@@ -36,29 +36,39 @@ def page_stats():
         page_no_total += int(i[1])
         page_no_list.append(int(i[1]))
         lens += 1
+    
+    # Frequency of books read by year
 
-    for item in list_year:
-        if item in year_freq:
-            year_freq[item] += 1
-        else:
-            year_freq[item] = 1
-
+    # How many books read + pages
     def books_lens_total():
         print('You have read', lens, 'books, which totals',
               page_no_total, 'pages.\n')
+    
+    # Frequency of books read by year
+    def books_by_year():
         print('Below is a list of your reading over the years: \n')
 
+        # tally for books read by year
+        for item in list_year:
+            if item in year_freq:
+                year_freq[item] += 1
+            else:
+                year_freq[item] = 1
+
+        #Console display
         for i in sorted(year_freq, key=year_freq.get, reverse=True):
             print(i, ": ", year_freq[i])
 
+    # Average length of each book
     def mean(books, page_number):
         avg = round(page_number/books, 1)
         print('\nGiven the data, on average each book will be',
               avg, 'pages long.\n')
 
+    #spread of each book
     def std_deviation(page_number):
         std_dev = round(statistics.stdev(page_number), 2)
-        print('The standard deviation of the sample is: ', std_dev)
+        print('The spread  of book lengths is: ', std_dev)
 
     # come back to this as you have to change things around
 
@@ -70,19 +80,23 @@ def page_stats():
     #     print ('\nThe biggest book you have read is"', max(page_no_list), '", Written by', author_reversed_new, 'in the year', year[0][2],',')
     #     print ('While the smallest book is"', min(page_no_list), '", Written by', author_reversed_old, 'in the year', year[-1][2],'.\n ')
 
-    return(books_lens_total(), mean(lens, page_no_total), std_deviation(page_no_list), end_choices())
+    return(
+        books_lens_total(),
+        books_by_year(),
+        mean(lens, page_no_total),
+        std_deviation(page_no_list),
+        end_choices())
 
-
-def author_stats():
     # Simple in this current verison - only produces the authors with the most read books by you
+def author_stats():
     data_auth = cur.execute('''select Title.name, title.length, Author.name
                             from title 
                             join Author on Title.author_id=Author.id
                             ORDER BY Author.name DESC, title.length, title.name; ''')
 
-    # do author average rating
+    
 
-    def top_10():
+    def top_10_authors():
         count = 0
         list_author_freq = []
         dict_author_freq = {}
@@ -102,11 +116,9 @@ def author_stats():
             count += 1
             if count == 10:
                 break
-    top_10()
+    top_10_authors()
 
-    # return (end_choices())
-
-
+# year publication stats
 def published_year_stats():
 
     data_year = cur.execute('''select title.name, title.length, Date_published.year,title.avg_rating, Author.name
@@ -123,6 +135,7 @@ def published_year_stats():
             year.append((i[0], i[4], i[2]))
         list_published_year_freq.append((i[2][0:2]))
 
+    #dispplay by century
     def century():
         # returns a list of books read,
         published_year_freq = {}
@@ -136,15 +149,16 @@ def published_year_stats():
         for i in sorted(published_year_freq, key=published_year_freq.get, reverse=True):
             print(i, ": ", published_year_freq[i])
 
+    # Oldest and youngest book returning
     def oldest_youngest():
         # returns the newest and oldest book read
         author_reversed_new = (' '.join(reversed(year[0][1].split(','))))
         author_reversed_old = (' '.join(reversed(year[-1][1].split(','))))
 
         print('\nThe newest book you have read is"',
-              year[0][0], '", Written by', author_reversed_new, 'in the year', year[0][2], ',')
+                year[0][0], '", Written by', author_reversed_new, 'in the year', year[0][2], ',')
         print('While the oldest book is"', year[-1][0], '", Written by',
-              author_reversed_old, 'in the year', year[-1][2], '.\n ')
+                author_reversed_old, 'in the year', year[-1][2], '.\n ')
 
     def decade_rating():
         # Haven't been cracked yet - cannt work out the algorithm which adds the decade and adds a rating to a list within that corresponding dictioanry value
@@ -170,14 +184,17 @@ def published_year_stats():
     # decade_rating()
 
 
+# retreives quotes: in this case it reparses due to giving userchoice of how many quotes they want
 def quote_puller():
 
     goodreads_base = 'https://www.goodreads.com'
     links = []
     complete_quotes_anki = []
     complete_quotes_txt = []
+
     # gathers data from sql
     data2 = cur.execute('''select * FROM quote_link ''')
+
     # make a list of the Links
     for i in data2:
         links.append(goodreads_base+i[1])
@@ -206,12 +223,13 @@ def quote_puller():
             count = 0
             # simple progress percentage return
             prog_count += 1
+
             # nifty boolean which makes it provide percentage completion every 3 ticks and not one.
             if prog_count == 3:
                 print("Currently at %", progress, "completion.")
                 prog_count = 0
-            # gathers the needed quotes
 
+            # gathers the needed quotes
             for quotez in soup.find_all('div', class_='quote'):
                 quote = quotez.find('div', class_='quoteText').text
                 count += 1
@@ -235,6 +253,8 @@ def quote_puller():
     # Takes the scraped quotes and converts them to a format to upload flashcard application anki
     def anki():
         global complete_quotes_anki
+
+        # Card characteristics and display template 
         my_model = genanki.Model(
             1607392319,
             'Simple Model',
@@ -249,17 +269,20 @@ def quote_puller():
                     'afmt': '{{FrontSide}}<hr id="answer">{{Answer}}',
                 }, ])
 
+        # Deck creation
         my_deck = genanki.Deck(
             2059400110,
             'Goodreads Quotes')
-
+        
+        # adds to Deck
         for i in complete_quotes_anki:
             my_note = genanki.Note(
                 model=my_model,
                 fields=[str(i), ' '])
             my_deck.add_note(my_note)
-
+        # completion
         genanki.Package(my_deck).write_to_file('Goodreads.apkg')
+        
         print('\nConversion finished. You will find Goodreads.apkg in this directory. \n')
 
     def file_choice():
@@ -279,11 +302,13 @@ def quote_puller():
 
     return (writer(), file_choice())
 
+# GUI choices
+
 
 def end_choices():
     while True:
         print('\n\nMain menu = 1, Exit program = 2')
-        end_choice = ((input()))
+        end_choice = input()
         if end_choice == str(1):
             choice()
         elif end_choice == str(2):
