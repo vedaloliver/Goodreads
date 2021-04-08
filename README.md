@@ -63,6 +63,7 @@ Todo:
 2. Create some form of Wallpaper retreival system which retreives wallpapers for the user's set resolution. Using either parser or hopefully an API
 3. Use this so the user can add the quotes onto wallpapers 
 4. develop a front end framework for all of this to make it look nice/ figure out pyui to do something similar to that guy's project about passports
+5. get the parser to retreive book image data 
 
 
 Todo for stats:
