@@ -69,9 +69,12 @@ Todo for stats:
 1. add average page count by year
 2. biggest and smallest book
 3. Author stats by average rating
+4. publication year by decade
+5. instead of having the user give the id, use regex to find it with the link they give instead
 
 Bug list:
 
 1. Pull data is in a choice loop which you have to repeat x number of times before backing out
 2. Nothing is commented
 3. in the parse file the parsing data is disgusting
+4. parse file page count of the user needs to be retreived, currently is fixed at 5 pages
